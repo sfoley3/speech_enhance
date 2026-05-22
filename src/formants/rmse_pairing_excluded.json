@@ -1,0 +1,2038 @@
+{
+  "counts": {
+    "included": 3666,
+    "excluded": 2968,
+    "total": 6634
+  },
+  "sample": [
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_221_225",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp i ate i ate every oyster on # how ancient how ancient is subway escalator sp subway escalator sp oak table sp ate every oyster sp plate sp boston ballet overcame ballet overcame their ballet overcame their funding shortage ashtray overflowed onto ashtray overflowed onto the oak table sp reading in you eyestrain sp you eyestrain sp this subway escalator this subway escalator sp the oak poor light gives you eyestrain sp clay ashtray clay ashtray overflowed clay ashtray overflowed onto sp boston ballet overcame",
+        "word": "ashtray",
+        "phones": "æeɪ",
+        "phoneme": {
+          "label": "ae",
+          "ipa": "æ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_286_290",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "the groundhog clearly a moment sp a moment sp chases cats mercilessly the cranberry bog sp a big synagogue may not be within sp the groundhog clearly saw his shadow but stayed out stayed out only out only a only a moment gets very pretty very pretty in big goat idly goat idly ambled goat idly ambled through the idly ambled through sp chases cats mercilessly sp the cranberry bog his shadow but out only a",
+        "word": "a",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_206_210",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "by eight cost psychological trauma sp the viewpoint overlooked for employment sp to open the to open the store by eight cook without sugar the viewpoint overlooked viewpoint overlooked sp are you looking for employment sp could barely handle could barely handle barely handle the handle the psychological sp the ocean the ocean sp the psychological trauma his failure to",
+        "word": "employment",
+        "phones": "əɔɪ",
+        "phoneme": {
+          "label": "oy",
+          "ipa": "ɔɪ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_421_425",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "tradition requires parental approval for underage marriage are quite colourful a treat sp quite colourful sp youngsters sp glucose and sp glucose and fructose are natural sugars hispanic costumes are corn candy as corn candy as a treat sugars found in sp fruit sp few people few people live to be a be a hundred quite colourful sp love sp and fructose are a hundred sp parental approval for underage marriage sp",
+        "word": "fructose",
+        "phones": "əoʊ",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "tradition requires sp youngsters love cheque hispanic costumes quite colourful sp few sp people live be a hundred corn candy as a treat sp glucose and fructose sp and fructose sp a hundred sp parental approval for youngsters love corn are quite colourful corn candy as are natural sugars found in for underage marriage underage marriage sp a treat sp quite colourful sp in fruit sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_306_310",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp choosing her dark murky lagoon sp ducks have ducks have webbed the high security sp take charge her bridesmaids' gowns her bridesmaids' gowns bridesmaids' gowns sp # the dark shawn catch that catch that sp big goose sp without help webbed feet with murky lagoon wound lagoon wound around wound around for miles sp murky lagoon wound around for was surrounded by surrounded by barbed sp wire sp charge of sp",
+        "word": "that",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_221_225",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp i ate i ate every oyster on # how ancient how ancient is subway escalator sp subway escalator sp oak table sp ate every oyster sp plate sp boston ballet overcame ballet overcame their ballet overcame their funding shortage ashtray overflowed onto ashtray overflowed onto the oak table sp reading in you eyestrain sp you eyestrain sp this subway escalator this subway escalator sp the oak poor light gives you eyestrain sp clay ashtray clay ashtray overflowed clay ashtray overflowed onto sp boston ballet overcame",
+        "word": "clay",
+        "phones": "eɪ",
+        "phoneme": {
+          "label": "ey",
+          "ipa": "eɪ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_281_285",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "you go out be no need no need for sp clams and the ocean's edge sp answers will be straightforward through carefully first drop five forms before you go out sp people were would be no for welfare sp and at sp the ocean's # desires are the subject sp be straightforward if them through carefully give me one me one informative sp paragraph on think them through carefully first sp those sp bob found more clams and at",
+        "word": "clams",
+        "phones": "æ",
+        "phoneme": {
+          "label": "ae",
+          "ipa": "æ"
+        }
+      },
+      "mri": {
+        "sentence": "sp those answers those answers will be straightforward be straightforward if you think them through fir carefully sp fir carefully sp # my sp desires are sp me one me one informative paragraph on informative paragraph on the subject sp drop five forms you go out if people were sp there would be no be no need no need for welfare sp more clams at clams at sp the ocean's the ocean's edge",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_171_175",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "add the sp oil sp file related to sp why sp when you always you always use # destroy every destroy every file the coleslaw after coleslaw after i add the every file related phony accusations at phony accusations at straw hats are out of to my audits all phony accusations all phony accusations phony accusations at once sp out of fashion of fashion this serve the coleslaw sp buy oil buy oil when use mine sp",
+        "word": "oil",
+        "phones": "ɔɪ",
+        "phoneme": {
+          "label": "oy",
+          "ipa": "ɔɪ"
+        }
+      },
+      "mri": {
+        "sentence": "all phony accusations all phony accusations phony accusations at phony accusations at phony accusations at once sp straw hats are out of fashion this destroy every file # destroy every file related file related to file related to my audits the coleslaw after coleslaw after i add sp the oil the oil sp why sp buy oil buy oil when you always you always use mine sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_076_080",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "and alligators are a famous sculpture and alligators are and alligators are misprint provoked an provoked an immediate an immediate disclaimer an immediate disclaimer an immediate disclaimer large household needs household needs lots sp of appliances of appliances sp of appliances sp cut a cut a sp off each edge is a famous a famous sculpture famous sculpture sp large household needs of appliances sp",
+        "word": "an",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_211_215",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "freeway mean the sp boy sp the paper is appreciated sp the sp courier was a was a dwarf # highway and the paper sp bought two apples two apples and three ices sp i itemize my agency sp clear pronunciation is appreciated sp i itemize all i itemize all accounts in all accounts in my agency my agency sp clear pronunciation is appreciated sp three ices sp the same thing sp courier was",
+        "word": "highway",
+        "phones": "eɪ",
+        "phoneme": {
+          "label": "ey",
+          "ipa": "eɪ"
+        }
+      },
+      "mri": {
+        "sentence": "sp the courier the courier was courier was a and three ices mean the same sp itemize all clear pronunciation is bought two apples and freeway mean in my agency clear pronunciation is clear pronunciation is sp appreciated sp appreciated sp was a dwarf sp highway sp the paper sp my agency sp highway sp boy bought two apples and freeway mean three ices sp appreciated sp the same thing my agency sp i sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_296_300",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "until the latest that you add you add sp dog loved to sp chew on old rag doll a joint appointment in the biology and the postponed alimony sp the latest sp possible date sp the number of number of teaspoons of teaspoons of teaspoons of on the old the old rag al received a engineering departments sp chose sp watch cartoons in the afternoon the afternoon sp postponed alimony postponed alimony sp postponed alimony sp payments until the joint appointment in the biology and the biology and the afternoon sp postponed alimony postponed alimony sp payments until sp payments until received a joint appointment in the biology and sp count sp of soysauce that",
+        "word": "cartoons",
+        "phones": "u",
+        "phoneme": {
+          "label": "uw",
+          "ipa": "u"
+        }
+      },
+      "mri": {
+        "sentence": "sp and tom chose to sp cartoons in the afternoon the afternoon sp the afternoon sp chip postponed alimony chip postponed alimony # al received al received a received a joint a joint appointment joint appointment in engineering departments sp postponed alimony payments postponed alimony payments alimony payments until alimony payments until the last possible date sp count sp the number of teaspoons of teaspoons of teaspoons of teaspoons of soysauce of soysauce sp you add sp to chew on the old rag old rag doll the biology and the biology and",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_436_440",
+      "reason": "phoneme_count_mismatch",
+      "ema": {
+        "sentence": "destroy aviaries sp centrifuge approach sp or sorry sp hindu ideology honour we apply auditory computer speech recognition speech recognition sp tornados often destroy aviaries destroy aviaries sp thought you argued in favor of favor of a of a centrifuge approach sp thought you argued sp favor of a centrifuge a centrifuge sp hindu ideology honour cows sp we apply we apply auditory apply auditory modelling sp tornados often frequently occurs on hindu ideology honour hindu ideology honour does hindu ideology sp birthday frequently destroy aviaries sp you argued in a centrifuge approach a centrifuge approach favor of a",
+        "word": "a",
+        "phones": "əə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "honour cows sp we apply we apply auditory we apply auditory apply auditory modelling auditory modelling to computer speech recognition speech recognition sp tornados often sp tornados often herb's birthday frequently birthday frequently occurs birthday frequently occurs frequently occurs on hindu ideology honour hindu ideology honour often destroy aviaries destroy aviaries sp destroy aviaries sp destroy aviaries sp in favour of favour of a of a centrifuge a centrifuge purchase a centrifuge purchase sp hindu ideology",
+        "word": "a",
+        "phones": "ə",
+        "phonemes": [
+          {
+            "label": "ah",
+            "ipa": "ə"
+          }
+        ]
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_261_265",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp sorry sp these exclusive must be locked sp please sp take this for me sp for a prospective sp the avalanche the avalance trig the avalance trig sp the avalance the avalance triggered a minor earthquake minor earthquake sp these exclusive documents locked up at all times sp dirty table sp brochure is sp particularly informative a prospective sp buyer sp the avalanche triggered the avalanche triggered the avalanche sp are very useful sp the avalance in seattle sp in seattle sp the avalanche triggered sorry the avalanche the avalanche sp documents must be dirty table cloth sp cleaners for",
+        "word": "exclusive",
+        "phones": "u",
+        "phoneme": {
+          "label": "uw",
+          "ipa": "u"
+        }
+      },
+      "mri": {
+        "sentence": "a prospective buyer prospective buyer sp the avalanche the avalanche trig the avalanche trig a minor earthquake minor earthquake sp # weatherproof galoshes are very useful very useful in seattle sp in seattle sp particularly informative sp particularly informative sp these exclusive these exclusive sp documents must be must be locked up at all times sp please take please take this dirty table cloth the cleaners for me sp this brochure is",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_261_265",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp be locked up at all sp to the very useful in sp a prospective buyer sp the avalanche a minor earthquake these exclusive documents exclusive documents sp locked up at all times sp please take please take this sp dirty tablecloth dirty tablecloth sp cleaners for me sp # weatherproof galoshes sp brochure is sp particularly informative a prospective buyer the avalanche triggered the avalanche triggered a minor are very useful in seattle sp in seattle sp the avalanche triggered minor earthquake sp these exclusive sp must sp",
+        "word": "brochure",
+        "phones": "oʊ",
+        "phoneme": {
+          "label": "ow",
+          "ipa": "oʊ"
+        }
+      },
+      "mri": {
+        "sentence": "sp particularly informative sp particularly informative a prospective sp buyer sp the avalanche the avalanche triggered the avalanche triggered the avalanche triggered a minor earthquake minor earthquake sp this brochure is # weatherproof galoshes sp these sp exclusive documents sp must sp be locked up at up at all times sp very useful in sp please take please take this dirty table cloth to the to the sp cleaners sp for me sp in seattle sp in seattle sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_071_075",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "save money sp a forgery sp # cooperation along understanding alleviate sp dispute sp have an upbeat an upbeat attitude sp flying sp can be practical to save money save money sp tell an original from a forgery cooperation along with primitive tribes have an upbeat attitude upbeat attitude sp standby sp can be practical if be practical if understanding alleviate sp understanding alleviate sp tribes have an upbeat attitude sp standby sp with understanding alleviate",
+        "word": "upbeat",
+        "phones": "əi",
+        "phoneme": {
+          "label": "iy",
+          "ipa": "i"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_186_190",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sat by the sp stray geese stray geese sp monday blues sp to spray juice hear the sleigh the sleigh bells rob sat by sketched the sp # even sp to obey government to obey government sp i occasionally when peeling an i occasionally get i occasionally get i occasionally get spray juice sp do you hear the monday blues the monday blues obey government orders sp military sp",
+        "word": "the",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "when peeling an not to spray to spray juice spray juice sp i occasionally get # even sp i occasionally i occasionally get i occasionally get the monday blues the monday blues monday blues sp expected to obey to obey government to obey government obey government orders the sleigh bells rob sat by sat by the stray geese stray geese sp military personnel",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_361_365",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "rhubarb pie after they assume no to see movies twice a sp suggestion box the taxicab broke serve rhubarb pie after rachel's they assume no assume no burglar sp just drop takes sheila to the taxicab broke the taxicab broke taxicab broke down broke down and sp traffic jam see movies twice a week sp drop notices in tim takes sheila takes sheila to see movies twice traffic jam sp after rachel's talk",
+        "word": "broke",
+        "phones": "oʊ",
+        "phoneme": {
+          "label": "ow",
+          "ipa": "oʊ"
+        }
+      },
+      "mri": {
+        "sentence": "serve rhubarb pie after rachel's sp a week sp they assume burglar will ever to see movies in any suggestion any suggestion box sp the taxicab broke dow down after rachel's talk takes sheila sp see movies twice a traffic jam tim takes sheila takes sheila sp taxicab broke dow see movies twice movies twice sp the taxicab broke the taxicab broke rhubarb pie after they assume no traffic jam sp assume no sp a week sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_386_390",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "big juicy peaches the overweight sp into anyone's sp crab challenged me a toothpaste tube sp those sp purists use canned making stew sp the fifth jar contains big juicy peaches sp the overweight the overweight sp into anyone's sp tea sp # crab challenged toothpaste tube should be squeezed from the bottom challenged me but use canned vegetables canned vegetables when making stew quick stab vanquished a toothpaste tube should be squeezed stab vanquished him big juicy peaches slip poison into",
+        "word": "crab",
+        "phones": "æ",
+        "phoneme": {
+          "label": "ae",
+          "ipa": "æ"
+        }
+      },
+      "mri": {
+        "sentence": "should be squeezed me but a but a quick purists use canned vegetables when big juicy peaches sp the overweight the overweight sp him a sp a crab a crab sp when making stew the overweight sp slip poison into stab vanquished him be squeezed from sp those sp use canned vegetables sp toothpaste tube sp challenged me sp contains big juicy peaches sp quick stab vanquished challenged me but making stew sp anyone's tea sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_371_375",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp daphne's swedish scarf matched her sp irish youngsters irish youngsters sp each eat fresh the subway but the subway but sp nightly increases nightly increases strength miraculously sp i haven't enough strength miraculously sp strength miraculously sp butterscotch fudge goes daphne's swedish sp needlepoint scarf sp each eat # i'd ride i'd ride the sp eating spinach sp nightly increases fudge goes sp vanilla ice cream ice cream sp but i haven't enough change enough change sp daphne's swedish with vanilla ice subway but i sp needlepoint scarf",
+        "word": "youngsters",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "with vanilla ice vanilla ice cream sp daphne's sp ice cream sp swedish needlepoint scarf youngsters eat fresh have enough change subway but i nightly increases strength sp ride the ride the subway the subway but don't have enough strength miraculously sp butterscotch sp irish sp i'd sp spinach nightly increases the subway but i don't strength miraculously sp strength miraculously sp scarf matched her sp eating sp daphne's sp enough change sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_066_070",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp my instructions doctors prescribe drugs prescribe drugs too describe the idiotic you please describe with bureaucracy sp my instructions desperately need sp updating sp updating sp the idiotic predicament idiotic predicament sp good service should too freely sp too freely sp will you please describe the drugs too freely to deal with should be rewarded by big instructions desperately need",
+        "word": "instructions",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "idiotic predicament sp need updating sp the idiotic predicament instructions desperately need desperately need updating need updating sp the idiotic predicament sp please describe sp too freely sp rewarded by sp prescribe drugs too to deal with should be rewarded you please describe sp prescribe drugs too freely will you please too freely sp with bureaucracy sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_326_330",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp the cow the cow wandered and became lost sp income loss coincided with system may break files frequently sp i assume i assume moisture assume moisture will damage this sp the annoying every night sp the farmland and sp each untimely the breakdown of breakdown of a heating system # the system files frequently sp i assume moisture will damage the annoying raccoons annoying raccoons slipped break down soon down soon so soon so save so save your ship's hull sp files frequently may break down each untimely sp loss coincided with the breakdown of",
+        "word": "of",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_391_395",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "is sometimes cured sp policeman to thoughtless motorists sp by shrapnel is sometimes cured # each sp of stylish shoes sp stag surely stylish shoes sp just the club theme sp they used they used an aggressive sp surely finds a sp the rich sp please sp sing just the stag surely finds a big sp policeman to by shrapnel is through group therapy group therapy sp",
+        "word": "the",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_101_105",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "the coyote bobcat the coyote bobcat the coyote bobcat # clasp sp the papaya are left hand sp misquote was retracted an apology sp an apology sp the coyote bobcat and hyena are wild animals wild animals sp the mango and the papaya are the papaya are sp combine all sp bowl sp the sp the screw in sp misquote was the ingredients in a large an apology sp the mango and the bowl sp the screw and hyena are and hyena are",
+        "word": "apology",
+        "phones": "əiə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "sp combine all the ingredients in a large bowl sp the misquote was retracted with sp apology sp apology sp # clasp the clasp the screw the screw in left hand sp mango and sp mango and mango and the papaya are a bowl sp the coyote bobcat the coyote bobcat the coyote bobcat coyote bobcat and bobcat and hyena and hyena are and hyena are and hyena are wild animals wild animals sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_121_125",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp agricultural sp products are unevenly distributed are unevenly distributed to participate in aquatic competition sp of new techniques the bungalow was pleasantly situated near to participate in nevada's aquatic in nevada's aquatic nevada's aquatic competition # scientific progress the clumsy customer clumsy customer sp spilled some expensive perfume sp progress comes from the bungalow was the bungalow was pleasantly situated near the shore from the development the development of new techniques sp the clumsy customer are unevenly distributed in nevada's aquatic",
+        "word": "customer",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_156_160",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "own halloween costumes own halloween costumes halloween costumes sp severe sp in finding nan's inferiority complex sp creole cooking sp creole cooking use curry sp to make their whoever cooperates in sp myopia contributed sp myopia contributed sp myopia contributed sp myopia contributed to ron's inferiority complex horse requires intuition requires intuition and intuition and expertise and expertise sp finding nan's cameo nan's cameo will nan's cameo will be rewarded ron's inferiority complex sp buying a buying a sp whoever cooperates in nan's cameo will she encouraged her their own halloween",
+        "word": "cooperates",
+        "phones": "eɪoʊ",
+        "phoneme": {
+          "label": "ow",
+          "ipa": "oʊ"
+        }
+      },
+      "mri": {
+        "sentence": "nan's cameo will finding nan's cameo severe myopia contributed sp cooperates in cameo will be rewarded sp will be rewarded severe myopia contributed in finding nan's severe myopia contributed myopia contributed sp severe myopia contributed sp severe myopia sp creole cooking use curry sp children to make their own halloween costumes ron's inferiority complex ron's inferiority complex a thoroughbred horse requires intuition requires intuition and halloween costumes sp whoever sp she encouraged she encouraged her own halloween costumes inferiority complex sp buying sp and expertise sp be rewarded sp their own halloween use curry sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_206_210",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp healthier to cook without sugar to open the store by eight the viewpoint overlooked could barely handle could barely handle for employment sp barely handle the psychological trauma the viewpoint overlooked viewpoint overlooked the overlooked the ocean the ocean sp for employment sp psychological trauma sp handle the psychological sp failure to by eight cost",
+        "word": "handle",
+        "phones": "æ",
+        "phoneme": {
+          "label": "ae",
+          "ipa": "æ"
+        }
+      },
+      "mri": {
+        "sentence": "cook without sugar the viewpoint sp open the store the viewpoint sp failure to sp healthier to open the by eight sp the psychological trauma are you looking for employment sp could barely handle the ocean sp overlooked the ocean psychological trauma sp to open the",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_411_415",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp tina turner is a sp rabbits rise early rise early every harmonize marvellously sp beg that guard calico cat to the rodents away the rodents away # those sp gallon of sp petrol sp a calico cat to keep the sp most sp young rabbits young rabbits rise for one sp get a calico keep the rodents sp musicians harmonize musicians harmonize marvellously harmonize marvellously sp harmonize marvellously sp rodents away sp rodents away sp tina turner",
+        "word": "keep",
+        "phones": "i",
+        "phoneme": {
+          "label": "iy",
+          "ipa": "i"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_266_270",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "be overcharged sp shaving cream on halloween sp carol comes tomorrow have her small zoos sp the two not buy these than be overcharged shaving cream is popular item sp on halloween sp comes tomorrow have her arrange for a meeting at the two sp artists exchanged autographs exchanged autographs sp i'd rather i'd rather not buy these show these show sp shoes than if carol comes her arrange for a meeting at two sp on halloween sp",
+        "word": "these",
+        "phones": "i",
+        "phoneme": {
+          "label": "iy",
+          "ipa": "i"
+        }
+      },
+      "mri": {
+        "sentence": "be overcharged sp her arrange for a meeting at two the artists exchanged autographs sp i'd rather i'd rather sp buy these shoes than be overcharged sp cream is sp comes tomorrow her arrange for giraffes be kept not buy these sp than be on halloween sp tomorrow have her two the sp a meeting at sp giraffes be exchanged autographs sp shaving sp popular item on small zoos sp on halloween sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_311_315",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "are both sp recuperating from have a scoop of that exotic and turquoise sherbet the frightened sp child was big brother sp was gently subdued gently subdued by gently subdued by subdued by his the barracuda recoiled the barracuda recoiled the barracuda recoiled sp patient and the lengthy operation lengthy operation sp scoop of that # the frightened didn't meet her early enough early enough sp the barracuda recoiled barracuda recoiled sp serpent's poisonous fangs poisonous fangs sp child was gently i know i know i didn't sp recuperating from a scoop of",
+        "word": "brother",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_101_105",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp coyote bobcat sp coyote bobcat and hyena the ingredients in the ingredients in was retracted with sp the sp coyote bobcat and hyena are and hyena are and hyena are wild animals # the screw the screw in the papaya sp the papaya sp the bowl sp the ingredients in a large sp bowl sp the misquote was misquote was retracted an apology sp an apology sp an apology sp left hand sp the mango and sp combine all the papaya sp mango and the coyote bobcat and wild animals sp",
+        "word": "papaya",
+        "phones": "əaɪə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "a bowl sp an apology sp combine sp the papaya are an apology sp the sp misquote was retracted with sp mango and the papaya are sp mango and mango and the misquote was retracted sp combine sp clasp the screw the screw in a large and hyena are the ingredients in the ingredients in sp coyote bobcat sp coyote bobcat and hyena are wild animals wild animals sp clasp the left hand sp coyote bobcat and large bowl the",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_186_190",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "the stray geese the monday blues monday blues sp peeling an to spray juice the sleigh bells # occasionally get to obey government obey government orders sp do you sp military personnel spray juice sp hear the sleigh # occasionally get expected to obey to obey government the monday blues rob sat by sat by the by the pond sketched the stray geese sp",
+        "word": "stray",
+        "phones": "eɪ",
+        "phoneme": {
+          "label": "ey",
+          "ipa": "eɪ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_446_450",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "is she sp # the speech another exciting movie speech symposium might speech symposium might speech symposium might symposium might sp steven spielberg sp growing well is very time consuming sp with you sp another exciting movie by movie by steven by steven spielberg time consuming sp begin on monday sp on monday sp very time consuming the speech symposium exciting movie by sp gremlins is sp going with sp i took",
+        "word": "symposium",
+        "phones": "əioʊ",
+        "phoneme": {
+          "label": "iy",
+          "ipa": "i"
+        }
+      },
+      "mri": {
+        "sentence": "another exciting movie exciting movie by exciting movie by movie by sp steven spielberg steven spielberg sp growing sp very time consuming time consuming sp the speech sp symposium might sp symposium might symposium might begin yet another exciting is she going she going with sp i took might begin on monday sp on monday sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_206_210",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "by eight cost psychological trauma sp the viewpoint overlooked for employment sp to open the to open the store by eight cook without sugar the viewpoint overlooked viewpoint overlooked sp are you looking for employment sp could barely handle could barely handle barely handle the handle the psychological sp the ocean the ocean sp the psychological trauma his failure to",
+        "word": "open",
+        "phones": "əoʊ",
+        "phoneme": {
+          "label": "ow",
+          "ipa": "oʊ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_421_425",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "be a hundred a hundred sp traditional sp for underage marriage # hispanic costumes hispanic costumes are sp glucose and sp glucose and to be a sp traditional sp parental approval for corn candy as corn candy as sp treat sp glucose and fructose and fructose are sugars found in few people live quite colourful sp are natural sugars are natural sugars in fruit sp few people sp youngsters sp love corn quite colourful sp tradition requires parental underage marriage sp",
+        "word": "fruit",
+        "phones": "u",
+        "phoneme": {
+          "label": "uw",
+          "ipa": "u"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_441_445",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "this saturday sp and roll music a great rhythm sp please sp my potatoes up potatoes up before rob made hungarian and gooseberry sp pie for and hours of hours of movies of movies this of movies this like blue sp likes brie sp dig my potatoes my potatoes up my potatoes up before the frost roll music has hungarian goulash for and gooseberry sp we like dinner and gooseberry we like blue sp cheese but victor likes brie music has a has a great saw hours and this saturday sp",
+        "word": "a",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_456_460",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "chloride vaporization sp don't look cheap valuables in sp theatre shows sp theatre shows mother goose sp zigzagged along on steep junglelike steep junglelike slopes junglelike slopes in stinging vapour was caused by chloride by chloride vaporization a bank vault theatre shows mother shows mother goose sp coffee is grown on steep junglelike slopes sp that sp stinging vapour was the path through otto's garden steep junglelike slopes sp zones sp vapour was caused chloride vaporization sp chloride vaporization sp for cheap valuables in a bank",
+        "word": "junglelike",
+        "phones": "əaɪə",
+        "phoneme": {
+          "label": "ay",
+          "ipa": "aɪ"
+        }
+      },
+      "mri": {
+        "sentence": "sp coffee sp grown on steep sp junglelike slopes sp junglelike slopes junglelike slopes in temperate zones sp that stinging vapour was vapour was sp moth zigzagged along zigzagged along the caused by chloride by chloride vaporization chloride vaporization sp chloride vaporization sp chloride vaporization sp don't sp for cheap valuables cheap valuables in a bank vault sp theatre shows sp theatre shows theatre shows mother the path through shows mother goose mother goose sp path through otto's through otto's sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_181_185",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "much allowance do much allowance do you get abruptly at the # young sp to contagious sp diseases sp with statuesque composure allowance do you sp the causeway the causeway ended at the shore ralph controlled the ralph controlled the sp bleachers sp statuesque composure sp should avoid exposure avoid exposure to sp approach sp approach sp your interview with statuesque composure how much allowance",
+        "word": "approach",
+        "phones": "əoʊ",
+        "phoneme": {
+          "label": "ow",
+          "ipa": "oʊ"
+        }
+      },
+      "mri": {
+        "sentence": "sp bleachers sp approach your interview with statuesque sp composure sp composure sp # young sp should avoid sp how sp much allowance do much allowance do much allowance do the causeway ended abruptly at ended abruptly at abruptly at the sp exposure to contagious diseases to contagious diseases contagious diseases sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_136_140",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "too much chlorine his eyes sp was unexpected sp by standardized tests tastes funny after funny after toothpaste sp the water much chlorine sp oh sorry sp the water contained too much chlorine and stung and stung his positive outcome was positive outcome was outcome was unexpected # mosquitoes exist # mosquitoes exist # mosquitoes exist sp judged sp by standardized by standardized tests sp juice sp tastes funny after toothpaste sp after toothpaste sp containing too sp containing too containing too much sp climates sp scholastic aptitude is scholastic aptitude is sp tastes funny too much chlorine sp scholastic aptitude sp climates sp water contained too much chlorine and",
+        "word": "too",
+        "phones": "u",
+        "phoneme": {
+          "label": "uw",
+          "ipa": "u"
+        }
+      },
+      "mri": {
+        "sentence": "orange juice tastes juice tastes funny tastes funny after tastes funny after funny after toothpaste after toothpaste sp after toothpaste sp water contained sp too much too much chlorine # mosquitoes exist # mosquitoes exist humid climates sp humid climates sp is judged by judged by standardized by standardized tests by standardized tests much chlorine and his eyes sp our experiment's positive outcome was positive outcome was unexpected sp scholastic aptitude sp scholastic aptitude scholastic aptitude is scholastic aptitude is",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_166_170",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "authorized the unlimited any corduroy overalls corduroy overalls sp would a tomboy play outdoors sp often go out go out in sp who sp authorized the expense account sp expense account sp cat's meow always cat's meow always you buy any buy any corduroy a tomboy often play outdoors meow always hurts the evening sp # cat's meow sp you buy hurts my ears",
+        "word": "you",
+        "phones": "u",
+        "phoneme": {
+          "label": "uw",
+          "ipa": "u"
+        }
+      },
+      "mri": {
+        "sentence": "would a tomboy a tomboy often play outdoors play outdoors sp they often go out go out in the cat's meow cat's meow always cat's meow always meow always hurts my ears sp buy any corduroy overalls corduroy overalls sp who sp authorized the authorized the unlimited expense account sp expense account sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_051_055",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "the uninterrupted rain any contributions sp be greatly appreciated greatly appreciated sp we got from the uninterrupted the uninterrupted rain uninterrupted rain sp # any contributions a geological theory geological theory sp seldom required sp challenge each general's will be greatly be greatly appreciated greatly appreciated sp greatly appreciated sp continental drift sp continental drift sp challenge each is a geological a geological theory greatly appreciated sp",
+        "word": "we",
+        "phones": "i",
+        "phoneme": {
+          "label": "iy",
+          "ipa": "i"
+        }
+      },
+      "mri": {
+        "sentence": "geological theory sp attendance is seldom required sp challenge each challenge each general's # any contributions any contributions will be greatly be greatly appreciated be greatly appreciated greatly appreciated sp greatly appreciated sp greatly appreciated sp greatly appreciated sp is a geological a geological theory a geological theory geological theory sp from the uninterrupted the uninterrupted rain the uninterrupted rain uninterrupted rain sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_456_460",
+      "reason": "different_phoneme",
+      "ema": {
+        "sentence": "sp theatre shows mother goose mother goose sp moth zigzagged sp is grown on path through otto's caused by chloride by chloride vaporization sp don't look for cheap valuables cheap valuables in sp theatre shows theatre shows mother steep junglelike sp slopes in stinging vapour was sp along the chloride vaporization sp chloride vaporization sp chloride vaporization sp the path through otto's garden temperate zones sp vapour was caused sp coffee is on steep junglelike steep junglelike sp a bank va",
+        "word": "valuables",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "mother goose # steep junglelike slopes steep junglelike slopes stinging vapour was chloride vaporization sp cheap valuables in which theatre shows theatre shows mother sp don't look for cheap valuables a bank vault sp coffee is sp grown on steep junglelike moth zigzagged along zigzagged along the along the path through otto's garden steep junglelike slopes junglelike slopes in temperate zones sp vapour was caused by chloride by chloride vaporization chloride vaporization sp chloride vaporization sp the path through",
+        "word": "valuables",
+        "phones": "æ",
+        "phonemes": [
+          {
+            "label": "ae",
+            "ipa": "æ"
+          }
+        ]
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_411_415",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp tina turner is a sp rabbits rise early rise early every harmonize marvellously sp beg that guard calico cat to the rodents away the rodents away # those sp gallon of sp petrol sp a calico cat to keep the sp most sp young rabbits young rabbits rise for one sp get a calico keep the rodents sp musicians harmonize musicians harmonize marvellously harmonize marvellously sp harmonize marvellously sp rodents away sp rodents away sp tina turner",
+        "word": "gallon",
+        "phones": "æ",
+        "phoneme": {
+          "label": "ae",
+          "ipa": "æ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_291_295",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "moon shone brightly shone brightly that would be a the local sp dispensing tranquilizers sp full moon shone brightly that brightly that night that night sp prevented them from on time sp the sp the local leather handbag would leather handbag would be a suitable a suitable sp drugstore was with illegally dispensing with illegally dispensing # a sp from arriving on from arriving on sp steve sp collects rare and novel coins sp",
+        "word": "them",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "from arriving on time sp the local the local drugstore sp was sp with illegally dispensing with illegally dispensing tranquilizers sp dispensing tranquilizers sp leather handbag would leather handbag would be a be a suitable full moon shone moon shone brightly shone brightly that brightly that night that night sp steve sp collects sp rare and rare and novel coins sp a suitable gift",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_036_040",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "on the twelfth cutbacks neglect the basketball can be her upbringing in sp twilight on sp twilight on have chablis sp catastrophic economic cutbacks neglect economic cutbacks neglect # basketball can and subtraction are grandmother outgrew her in petticoats sp at sp an entertaining sp addition and twelfth day we'll sp grandmother outgrew grandmother outgrew her can be an be an entertaining we'll have chablis",
+        "word": "the",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "sp grandmother outgrew sp grandmother outgrew grandmother outgrew her grandmother outgrew her upbringing in sp petticoats sp # basketball can basketball can be can be an entertaining sp and subtraction are and subtraction are at twilight on twelfth day we'll have chablis sp catastrophic sp economic cutbacks neglect economic cutbacks neglect",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_266_270",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "shaving cream sp is a popular sp giraffes be comes tomorrow have her arrange for a meeting giraffes be kept sp two sp artists exchanged autographs exchanged autographs sp i'd rather not sp buy those shoes than shoes than be sp item on halloween sp her arrange for meeting at sp i'd rather small zoos sp a meeting at sp two artists if carol comes carol comes tomorrow have her buy those shoes than be overcharged sp shaving cream on halloween sp",
+        "word": "tomorrow",
+        "phones": "oʊ",
+        "phoneme": {
+          "label": "ow",
+          "ipa": "oʊ"
+        }
+      },
+      "mri": {
+        "sentence": "tomorrow have her arrange sp her arrange sp for a meeting at sp two sp the two sp artists exchanged autographs exchanged autographs sp giraffes be if carol comes carol comes sp tomorrow have sp i'd rather i'd rather not buy these buy these shoes these shoes than shoes than be than be overcharged be overcharged sp shaving cream shaving cream is a sp popular item on halloween sp on halloween sp small zoos sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_136_140",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "too much chlorine his eyes sp was unexpected sp by standardized tests tastes funny after funny after toothpaste sp the water much chlorine sp oh sorry sp the water contained too much chlorine and stung and stung his positive outcome was positive outcome was outcome was unexpected # mosquitoes exist # mosquitoes exist # mosquitoes exist sp judged sp by standardized by standardized tests sp juice sp tastes funny after toothpaste sp after toothpaste sp containing too sp containing too containing too much sp climates sp scholastic aptitude is scholastic aptitude is sp tastes funny too much chlorine sp scholastic aptitude sp climates sp water contained too much chlorine and",
+        "word": "juice",
+        "phones": "u",
+        "phoneme": {
+          "label": "uw",
+          "ipa": "u"
+        }
+      },
+      "mri": {
+        "sentence": "orange juice tastes juice tastes funny tastes funny after tastes funny after funny after toothpaste after toothpaste sp after toothpaste sp water contained sp too much too much chlorine # mosquitoes exist # mosquitoes exist humid climates sp humid climates sp is judged by judged by standardized by standardized tests by standardized tests much chlorine and his eyes sp our experiment's positive outcome was positive outcome was unexpected sp scholastic aptitude sp scholastic aptitude scholastic aptitude is scholastic aptitude is",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_081_085",
+      "reason": "different_phoneme",
+      "ema": {
+        "sentence": "# masquerade sp near the icy antarctic sp medieval sp society was sp project development was development was sp proceeding too proceeding too slowly too slowly sp # masquerade sp the icy antarctic the icy antarctic sp question from the answer the answer sp society was sp society was sp society was sp based on hierarchies sp tax one's penguins lee sp medieval sp on hierarchies sp parties sp tax one's imagination one's imagination sp one's imagination sp too slowly sp",
+        "word": "society",
+        "phones": "əaɪi",
+        "phoneme": {
+          "label": "iy",
+          "ipa": "i"
+        }
+      },
+      "mri": {
+        "sentence": "icy antarctic sp question from the answer the answer sp medieval sp medieval sp society was sp society was sp based on # masquerade parties # masquerade parties masquerade parties sp tax one's tax one's imagination one's imagination sp near the icy the icy antarctic the icy antarctic on hierarchies sp on hierarchies sp project development was proceeding too proceeding too slowly too slowly sp too slowly sp",
+        "word": "society",
+        "phones": "əaɪ",
+        "phonemes": [
+          {
+            "label": "ay",
+            "ipa": "aɪ"
+          },
+          {
+            "label": "ah",
+            "ipa": "ə"
+          }
+        ]
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_131_135",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "of my instructions is crucial sp square many times many times sp vietnamese cuisine the previous sp speaker sp presented ambiguous results ambiguous results sp precincts had the votes counted votes counted sp while sp waiting for chipper she crisscrossed third of the sp most sp correct execution of sp vietnamese cuisine vietnamese cuisine is the previous sp the previous sp presented ambiguous results presented ambiguous results",
+        "word": "votes",
+        "phones": "oʊ",
+        "phoneme": {
+          "label": "ow",
+          "ipa": "oʊ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_396_400",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "the camp site thing by the sp changes sp housewives often plymouth variety store sp a lone a lone star shone in the early evening sky sp the toddler camp site sp the advertising verse sp suburban sp housewives often suffer from the gab habit early evening sky verse of sp plymouth variety store plymouth variety store often suffer from the gab habit sp in the early sp found a sp clamshell near by the ironing the ironing board",
+        "word": "by",
+        "phones": "aɪ",
+        "phoneme": {
+          "label": "ay",
+          "ipa": "aɪ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_356_360",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "fish began to leap frantically leap frantically on the surface of surface of the small lake sp and disappeared sp a young mouse scampered across she uses both sp calcium makes calcium makes bones fish began to leap frantically on the surface of the small all like long the field and disappeared sp she uses both names sp interchangeably sp calcium makes bones and hot showers sp young mouse scampered uses both names sp interchangeably sp interchangeably sp calcium makes and teeth strong a young mouse sp the fish",
+        "word": "bones",
+        "phones": "oʊ",
+        "phoneme": {
+          "label": "ow",
+          "ipa": "oʊ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_446_450",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "is she sp # the speech another exciting movie speech symposium might speech symposium might speech symposium might symposium might sp steven spielberg sp growing well is very time consuming sp with you sp another exciting movie by movie by steven by steven spielberg time consuming sp begin on monday sp on monday sp very time consuming the speech symposium exciting movie by sp gremlins is sp going with sp i took",
+        "word": "another",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "another exciting movie exciting movie by exciting movie by movie by sp steven spielberg steven spielberg sp growing sp very time consuming time consuming sp the speech sp symposium might sp symposium might symposium might begin yet another exciting is she going she going with sp i took might begin on monday sp on monday sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_371_375",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "swedish needlepoint scarf the subway but the subway but subway but i spinach nightly increases strength miraculously sp butterscotch fudge sp irish youngsters eat fresh # ride the spinach nightly increases butterscotch fudge goes with vanilla ice vanilla ice cream ice cream sp daphne's sp but i haven't sp eating sp strength miraculously sp ride the subway nightly increases strength miraculously sp i haven't enough haven't enough change enough change sp swedish needlepoint swedish needlepoint scarf matched her",
+        "word": "but",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "strength miraculously sp strength miraculously sp butterscotch fudge butterscotch fudge goes fudge goes well vanilla ice cream ice cream sp # i'd ride i'd ride the subway but the subway but i haven't i haven't enough i haven't enough change sp eating spinach nightly sp increases strength sp daphne's swedish sp daphne's swedish daphne's swedish needlepoint swedish needlepoint sp swedish needlepoint sp scarf matches her scarf matches her sp irish youngsters irish youngsters eat youngsters eat fresh",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_186_190",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "the stray geese the monday blues monday blues sp peeling an to spray juice the sleigh bells # occasionally get to obey government obey government orders sp do you sp military personnel spray juice sp hear the sleigh # occasionally get expected to obey to obey government the monday blues rob sat by sat by the by the pond sketched the stray geese sp",
+        "word": "to",
+        "phones": "u",
+        "phoneme": {
+          "label": "uw",
+          "ipa": "u"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_281_285",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "be no need for welfare sp the subject sp informative paragraph sp them through sp box before you go out go out sp people were generous there would no need for bob found more clams at the ocean's # desires are on the subject sp answers will be straightforward if sp carefully first sp carefully first in the box give me one me one informative sp be straightforward if you sp drop five sp those sp would be no clams at the ocean's edge sp that sp",
+        "word": "carefully",
+        "phones": "æi",
+        "phoneme": {
+          "label": "ae",
+          "ipa": "æ"
+        }
+      },
+      "mri": {
+        "sentence": "sp those answers those answers will be straightforward be straightforward if you think them through carefully through carefully first through carefully first drop five forms # my sp desires are give me one me one informative one informative paragraph informative paragraph on the subject sp you go out go out sp if people were generous there would be no be no need no need for welfare sp found more clams at the ocean's the ocean's edge",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_246_250",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "soothed by the sp luxurious sp steve wore sp rose corsage smelled sweet sp cliff was soothed was soothed by sp luxurious sp luxurious sp wore a bright red cashmere sweater sp boy answered brother repainted the repainted the garage answered but didn't look up sp a bright red john's brother repainted # the angry the angry sp the angry sp massage sp",
+        "word": "luxurious",
+        "phones": "əiə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "sp the rose the rose sp soothed by sp the luxurious the luxurious massage sp brother repainted smelled sweet sp cliff was sp the luxurious massage the luxurious massage sp the angry the angry sp boy answered wore a bright red cashmere sweater brother repainted the repainted the garage the angry sp steve sp a bright red sp soothed by boy answered but look up sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_126_130",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "never compile sp bugle scared the was opaque and needed clarification scared the antelope the antelope sp the antelope sp a muskrat sp much curiosity can much curiosity can you into trouble into trouble sp cyclical programs will programs will never the sound of jennifer's bugle scared sp the willowy long article sp the willowy sp the willowy sp woman wore a muskrat sp too much curiosity the antelope sp coat sp was opaque was opaque and needed clarification sp needed clarification sp curiosity can get you into sp cyclical programs cyclical programs will never compile sp",
+        "word": "compile",
+        "phones": "əaɪ",
+        "phoneme": {
+          "label": "ay",
+          "ipa": "aɪ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_281_285",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "you go out be no need no need for sp clams and the ocean's edge sp answers will be straightforward through carefully first drop five forms before you go out sp people were would be no for welfare sp and at sp the ocean's # desires are the subject sp be straightforward if them through carefully give me one me one informative sp paragraph on think them through carefully first sp those sp bob found more clams and at",
+        "word": "paragraph",
+        "phones": "æ",
+        "phoneme": {
+          "label": "ae",
+          "ipa": "æ"
+        }
+      },
+      "mri": {
+        "sentence": "sp those answers those answers will be straightforward be straightforward if you think them through fir carefully sp fir carefully sp # my sp desires are sp me one me one informative paragraph on informative paragraph on the subject sp drop five forms you go out if people were sp there would be no be no need no need for welfare sp more clams at clams at sp the ocean's the ocean's edge",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_341_345",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "women may never sp always jokes sp too much sp become completely the archeological museum the archeological museum archeological museum sp archeological museum sp pam sp gives driving lessons sp why charge money for always jokes about too much garlic archeological museum sp completely equal to his food sp i just i just saw near the archeological # women may jokes about sp jokes about sp become completely equal become completely equal on thursdays sp charge money for such garbage",
+        "word": "too",
+        "phones": "u",
+        "phoneme": {
+          "label": "uw",
+          "ipa": "u"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_291_295",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "moon shone brightly that night sp # a sp the fog would be a suitable gift sp the local the local drugstore sp the full shone brightly that steve collects sp novel coins sp from arriving on time sp local drugstore was sp illegally dispensing be a suitable drugstore was charged sp illegally dispensing tranquilizers sp from arriving on leather handbag would leather handbag would full moon shone brightly that brightly that night sp rare novel",
+        "word": "the",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "sp the local the local drugstore local drugstore was with illegally dispensing with illegally dispensing tranquilizers sp # a leather handbag would leather handbag would be a suitable gift from arriving on from arriving on time sp full moon shone moon shone brightly shone brightly that shone brightly that brightly that night that night sp steve collects rare and novel coins sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_386_390",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "big juicy peaches the overweight sp into anyone's sp crab challenged me a toothpaste tube sp those sp purists use canned making stew sp the fifth jar contains big juicy peaches sp the overweight the overweight sp into anyone's sp tea sp # crab challenged toothpaste tube should be squeezed from the bottom challenged me but use canned vegetables canned vegetables when making stew quick stab vanquished a toothpaste tube should be squeezed stab vanquished him big juicy peaches slip poison into",
+        "word": "anyone's",
+        "phones": "əi",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "should be squeezed me but a but a quick purists use canned vegetables when big juicy peaches sp the overweight the overweight sp him a sp a crab a crab sp when making stew the overweight sp slip poison into stab vanquished him be squeezed from sp those sp use canned vegetables sp toothpaste tube sp challenged me sp contains big juicy peaches sp quick stab vanquished challenged me but making stew sp anyone's tea sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_071_075",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "save money sp a forgery sp # cooperation along understanding alleviate sp dispute sp have an upbeat an upbeat attitude sp flying sp can be practical to save money save money sp tell an original from a forgery cooperation along with primitive tribes have an upbeat attitude upbeat attitude sp standby sp can be practical if be practical if understanding alleviate sp understanding alleviate sp tribes have an upbeat attitude sp standby sp with understanding alleviate",
+        "word": "practical",
+        "phones": "æə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_041_045",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "heat compounded the compounded the tenant's grievances sp academic aptitude guarantees your diploma sp simple vocabulary contains the eastern coast pleasure and excitement sp lack of academic aptitude guarantees aptitude guarantees your aptitude guarantees your aptitude guarantees your sp the eastern coast is a place a place for and excitement sp and excitement sp of heat compounded even a simple vocabulary contains simple vocabulary contains lack of heat vocabulary contains symbols sp academic aptitude your diploma sp",
+        "word": "a",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "sp aptitude guarantees a place for and excitement sp your diploma the and excitement sp aptitude guarantees aptitude guarantees your aptitude guarantees your aptitude guarantees your diploma the lack of heat tenant's grievances sp academic sp simple vocabulary sp contains symbols sp even a heat compounded the compounded the tenant's simple vocabulary sp of heat compounded heat compounded the tenant's grievances sp contains symbols sp even a simple vocabulary sp eastern coast is the eastern coast sp lack of",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_126_130",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "you into trouble the sound of sound of sp the antelope sp the willowy sp much curiosity can get you into trouble sp cyclical sp never compile sp never compile sp the sound jennifer's bugle scared bugle scared the scared the antelope sp the willowy the willowy sp a muskrat sp a muskrat sp coat sp too much curiosity much curiosity can was opaque and was opaque and needed clarification sp the antelope sp the antelope sp too much long article was and needed clarification needed clarification sp",
+        "word": "bugle",
+        "phones": "u",
+        "phoneme": {
+          "label": "uw",
+          "ipa": "u"
+        }
+      },
+      "mri": {
+        "sentence": "bugle scared the antelope sp the antelope sp the antelope sp the willowy the willowy woman the willowy woman willowy woman wore a muskrat a muskrat coat a muskrat coat muskrat coat sp too much too much curiosity much curiosity can long article was article was opaque was opaque and was opaque and needed clarification needed clarification sp needed clarification sp needed clarification sp the sound of sound of jennifer's sp bugle scared much curiosity can get you into cyclical programs will cyclical programs will never compile sp the sound",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_246_250",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "soothed by the sp luxurious sp steve wore sp rose corsage smelled sweet sp cliff was soothed was soothed by sp luxurious sp luxurious sp wore a bright red cashmere sweater sp boy answered brother repainted the repainted the garage answered but didn't look up sp a bright red john's brother repainted # the angry the angry sp the angry sp massage sp",
+        "word": "rose",
+        "phones": "oʊ",
+        "phoneme": {
+          "label": "ow",
+          "ipa": "oʊ"
+        }
+      },
+      "mri": {
+        "sentence": "sp the rose the rose sp soothed by sp the luxurious the luxurious massage sp brother repainted smelled sweet sp cliff was sp the luxurious massage the luxurious massage sp the angry the angry sp boy answered wore a bright red cashmere sweater brother repainted the repainted the garage the angry sp steve sp a bright red sp soothed by boy answered but look up sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_456_460",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "chloride vaporization sp don't look cheap valuables in sp theatre shows sp theatre shows mother goose sp zigzagged along on steep junglelike steep junglelike slopes junglelike slopes in stinging vapour was caused by chloride by chloride vaporization a bank vault theatre shows mother shows mother goose sp coffee is grown on steep junglelike slopes sp that sp stinging vapour was the path through otto's garden steep junglelike slopes sp zones sp vapour was caused chloride vaporization sp chloride vaporization sp for cheap valuables in a bank",
+        "word": "junglelike",
+        "phones": "əaɪə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "sp coffee sp grown on steep sp junglelike slopes sp junglelike slopes junglelike slopes in temperate zones sp that stinging vapour was vapour was sp moth zigzagged along zigzagged along the caused by chloride by chloride vaporization chloride vaporization sp chloride vaporization sp chloride vaporization sp don't sp for cheap valuables cheap valuables in a bank vault sp theatre shows sp theatre shows theatre shows mother the path through shows mother goose mother goose sp path through otto's through otto's sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_006_010",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "wear a yellow lily sp or worry sp were you while were away sp than nancy's sp than nancy's sp will robin wear a yellow lily # why yell you while we while we were away sp grades higher or sp he sp will allow a allow a rare a rare lie rare lie sp over silly items your grades higher or lower than will allow a silly items sp",
+        "word": "worry",
+        "phones": "i",
+        "phoneme": {
+          "label": "iy",
+          "ipa": "i"
+        }
+      },
+      "mri": {
+        "sentence": "your grades higher grades higher or lower than nancy's sp than nancy's sp he will he will allow will allow a will allow a rare lie rare lie sp # why yell or worry over worry over silly over silly items silly items sp were you while we were away sp were away sp will sp robin wear a wear a yellow a yellow lily yellow lily sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_396_400",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp the toddler camp site sp plymouth variety store from the gab a lone sp toddler found a the camp site sp what is sp the ironing the advertising sp the advertising sp never changes sp suburban housewives suburban housewives often suffer from the gab habit star shone in the early sp evening sky evening sky sp verse of sp plymouth variety store plymouth variety store gab habit sp a lone the early sp suburban housewives often housewives often suffer # the advertising sp clamshell near thing by sp",
+        "word": "changes",
+        "phones": "eɪ",
+        "phoneme": {
+          "label": "ey",
+          "ipa": "eɪ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_331_335",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp costume needed to be completely papered over the over the living sp you please confirm government at gunpoint for three hours sp the surplus sp lori's sp costume needed black needed black gloves be completely elegant be completely elegant you please confirm government policy regarding waste removal sp the surplus shoes surplus shoes were sp at a at a dis discount price sp at gunpoint for three hours sp regarding waste removal sp discount price confirm government policy confirm government policy black gloves to bob papered over",
+        "word": "government",
+        "phones": "əə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "at gunpoint for living room murals three hours sp for three hours sp gunman kept be completely elegant sp you please confirm government sp policy regarding waste removal at a discount sp lori's sp costume needed black needed black gloves to be completely be completely elegant please confirm government waste removal sp the surplus sp were sold at a discount price black gloves to discount price sp at gunpoint for",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_041_045",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "of heat sp academic aptitude guarantees academic aptitude guarantees # ambidextrous sp the eastern sp place for sp the lack sp compounded the compounded the tenant's grievances sp tenant's grievances sp academic aptitude vocabulary contains symbols the eastern coast eastern coast is a sp and excitement sp and excitement sp simple vocabulary contains simple vocabulary contains simple vocabulary contains pickpockets accomplish more the lack of lack of heat sp compounded the",
+        "word": "contains",
+        "phones": "eɪ",
+        "phoneme": {
+          "label": "ey",
+          "ipa": "eɪ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_136_140",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "our experiment's positive is judged by sp climates sp juice tastes funny tastes funny after funny after toothpaste after toothpaste sp water contained too sp chlorine and positive outcome was outcome was unexpected sp aptitude is sp aptitude is judged by standardized by standardized tests orange juice tastes after toothpaste sp the water too much sp climates sp tastes funny after by standardized tests warm humid sp scholastic sp scholastic sp his eyes sp positive outcome was unexpected sp",
+        "word": "was",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "water contained too much chlorine and stung his water contained too much chlorine his eyes sp judged by standardized sp experiment's positive was unexpected sp by standardized tests sp scholastic sp mosquitoes sp mosquitoes sp tastes funny after tastes funny after funny after tay positive outcome was sp aptitude is judged by standardized tests juice tastes funny sp aptitude is tay toothpaste sp tay toothpaste sp positive outcome was humid climates sp after tay toothpaste",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_231_235",
+      "reason": "different_phoneme",
+      "ema": {
+        "sentence": "agency overthrow alien overthrow alien forces every monday evening view ably sp the essay the yellow ointment the agency overthrow alien forces overthrow alien forces our view ably view ably sp to allow identical to allow identical allow identical twins enter freely sp do you have you have the have the yellow every monday evening yellow ointment ready yellow ointment ready monday evening sp the essay undeniably essay undeniably reflect essay undeniably reflect remember to allow enter freely sp ointment ready sp open every monday essay undeniably reflect essay undeniably reflect sp can sp",
+        "word": "allow",
+        "phones": "əaʊ",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "sp can the yellow ointment ready yellow ointment ready sp overthrow alien overthrow alien forces sp we sp every monday evening sp to allow to allow identical enter freely do sp overthrow alien overthrow alien forces the essay undeniably essay undeniably sp essay undeniably sp view ably every monday evening enter freely do freely do you are open every our vi sp the essay allow identical twins overthrow alien forces do you sp view ably sp monday evening sp ointment ready sp view ably sp the agency sp",
+        "word": "allow",
+        "phones": "aʊ",
+        "phonemes": [
+          {
+            "label": "aw",
+            "ipa": "aʊ"
+          }
+        ]
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_306_310",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "# the dark murky lagoon wound lagoon wound around sp high security high security prison was surrounded by barbed wire sp charge of choosing of choosing her bridesmaids' gowns her bridesmaids' gowns bridesmaids' gowns sp shawn catch that big goose without an sp ducks have sp the sp surrounded by barbed wound around sp for miles sp webbed feet and goose without an sp take charge",
+        "word": "without",
+        "phones": "aʊ",
+        "phoneme": {
+          "label": "aw",
+          "ipa": "aʊ"
+        }
+      },
+      "mri": {
+        "sentence": "was surrounded by bride's maids' gowns murky lagoon sp wound around for and colorful feathers surrounded by barbed big goose without goose without help murky lagoon sp wound around webbed feet and sp take charge her bride's maids' gowns sp the sp for miles sp ducks sp the sp barbed wire sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_436_440",
+      "reason": "different_phoneme",
+      "ema": {
+        "sentence": "destroy aviaries sp thought you argued in favour of does hindu ideology hindu ideology honour hindu ideology honour hindu ideology honour sp we apply we apply auditory computer speech recognition sp tornados often destroy aviaries destroy aviaries sp we apply auditory apply auditory modelling sp computer speech recognition sp tornados often sp frequently occurs sp frequently occurs frequently occurs on thanksgiving sp hindu ideology honour cows sp birthday sp destroy aviaries sp you argued in of a centrifuge a centrifuge sp",
+        "word": "apply",
+        "phones": "əaɪ",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "hindu ideology honour cows sp we apply we apply auditory sp modelling to computer speech sp birthday frequently birthday frequently occurs frequently occurs in does hindu ideology hindu ideology honour hindu ideology honour sp tornados sp tornados sp often destroy aviaries destroy aviaries sp destroy aviaries sp destroy aviaries sp thought you argued you argued in favour of sp centrifuge sp on thanksgiving sp",
+        "word": "apply",
+        "phones": "aɪ",
+        "phonemes": [
+          {
+            "label": "ay",
+            "ipa": "aɪ"
+          }
+        ]
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_001_005",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "as innocent sp as offensive as for us sp she is i am sp bright sp on the ocean is as offensive as offensive as innocent sp is as offensive sp sorry sp this was easy more money by more money by than i am sp sunshine shimmers the ocean sp nothing is sp jane may jane may sp sunshine shimmers money by working was easy sp was easy sp nothing is",
+        "word": "easy",
+        "phones": "ii",
+        "phoneme": {
+          "label": "iy",
+          "ipa": "i"
+        }
+      },
+      "mri": {
+        "sentence": "sp she is than i am i am sp bright sunshine bright sunshine sp bright sunshine sp on the ocean the ocean sp nothing is as offensive as offensive as this was easy was easy for was easy for us sp jane may more money by more money by money by working jane may earn",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_116_120",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "technical writers can abbreviate in a new beverage notoriety go hand go hand in sp publicity and are convenient for a quick are nice months can abbreviate in can abbreviate in can abbreviate in bibliographies sp in bibliographies sp in hand sp pizzerias are sp pizzerias are convenient for build a new and january sp and january sp in miami sp beverage plant sp publicity and publicity and notoriety and notoriety go and notoriety go sp pizzerias are quick lunch sp and january sp in miami sp in miami sp and notoriety go and notoriety go in bibliographies sp",
+        "word": "pizzerias",
+        "phones": "əii",
+        "phoneme": {
+          "label": "iy",
+          "ipa": "i"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_256_260",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "quality clothing sp underbrush of nevada sp promote sp birth control sp traffic sometimes sp backed up sp in the long run it pays sp to buy quality sp brush fires brush fires are common in dry underbrush of dry underbrush of nevada sp of nevada sp several signed lithographs signed lithographs sp signed lithographs sp in every major every major sp cloverleaf traffic parenthood organizations sp traffic sometimes sp birth control sp gets backed up planned parenthood organizations sp promote sp buy quality clothing the dry underbrush",
+        "word": "quality",
+        "phones": "i",
+        "phoneme": {
+          "label": "iy",
+          "ipa": "i"
+        }
+      },
+      "mri": {
+        "sentence": "purchased several signed several signed lithographs signed lithographs sp in every major every major sp cloverleaf traffic sp cloverleaf traffic cloverleaf traffic sometimes traffic sometimes sp traffic sometimes sp gets backed up backed up sp # planned sp in the long parenthood organizations promote it pays sp buy quality clothing sp organizations promote birth sp brush sp fires are common in the dry underbrush dry underbrush sp of nevada of nevada sp control sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_356_360",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "fish began to leap frantically leap frantically on the surface of surface of the small lake sp and disappeared sp a young mouse scampered across she uses both sp calcium makes calcium makes bones fish began to leap frantically on the surface of the small all like long the field and disappeared sp she uses both names sp interchangeably sp calcium makes bones and hot showers sp young mouse scampered uses both names sp interchangeably sp interchangeably sp calcium makes and teeth strong a young mouse sp the fish",
+        "word": "like",
+        "phones": "aɪ",
+        "phoneme": {
+          "label": "ay",
+          "ipa": "aɪ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_196_200",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sermon emphasized sp the events in most recent geological recent geological survey found seismic activity seismic activity sp seismic activity sp # the sermon sp how sp permanent are sp try to try to recall the need for affirmative action sp small boy sp in chronological order the most recent geological survey geological survey found survey found seismic",
+        "word": "activity",
+        "phones": "æi",
+        "phoneme": {
+          "label": "ae",
+          "ipa": "æ"
+        }
+      },
+      "mri": {
+        "sentence": "put the worm sp how permanent how permanent sp small boy put # sermon sp emphasized the sp emphasized the emphasized the need the need for sp try to the events in chronological order the most sp recent geological recent geological survey recent geological survey geological survey found survey found seismic found seismic sp activity sp activity sp activity sp affirmative action sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_306_310",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp choosing her dark murky lagoon sp ducks have ducks have webbed the high security sp take charge her bridesmaids' gowns her bridesmaids' gowns bridesmaids' gowns sp # the dark shawn catch that catch that sp big goose sp without help webbed feet with murky lagoon wound lagoon wound around wound around for miles sp murky lagoon wound around for was surrounded by surrounded by barbed sp wire sp charge of sp",
+        "word": "lagoon",
+        "phones": "əu",
+        "phoneme": {
+          "label": "uw",
+          "ipa": "u"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_416_420",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "it's illegal to sp mum strongly mum strongly dislikes lunch yesterday sp to postdate a to postdate a postdate a cheque dislikes appetizers sp dislikes appetizers sp critical acclaim sp eat lunch yesterday caught redhanded sp repertoire gained critical did you eat you eat lunch # that sp strongly dislikes appetizers",
+        "word": "postdate",
+        "phones": "eɪoʊ",
+        "phoneme": {
+          "label": "ow",
+          "ipa": "oʊ"
+        }
+      },
+      "mri": {
+        "sentence": "her classical repertoire gained critical acclaim sp did you eat you eat lunch eat lunch yesterday # that sp caught redhanded sp strongly dislikes appetizers dislikes appetizers sp dislikes appetizers sp lunch yesterday sp it's illegal to sp postdate a sp postdate a postdate a cheque sp mum strongly",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_161_165",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "thick glue sp oozed out of out of the danny allow others allow others to go sp are now coeducational now coeducational sp through the snow the safari sp oozed out would danny allow would danny allow danny allow others # barely see barely see the now coeducational sp see the fjords spotted hyenas and spotted hyenas and jaguars on the safari sp fjords through the snow flurries sp the fjords through the snow flurries the tube sp why else",
+        "word": "allow",
+        "phones": "əaʊ",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "could barely see snow flurries sp the snow flurries the fjords through the snow could barely see sp almost sp oozed out of sp why else on the safari the safari sp danny allow sp now coeducational sp spotted hyenas and spotted hyenas and would danny allow sp others to now coeducational sp the safari sp are now coeducational and jaguars on thick glue sp the tube sp to go sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_056_060",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp street is straight ahead sp gas shortage steep price increases sp porcupines resemble straight ahead sp # last year's sp upgrade your status sp eat your raisins outdoors raisins outdoors on the porch sp porcupines resemble caused steep price increases sp resemble sea urchins sp upgrade your",
+        "word": "porcupines",
+        "phones": "aɪu",
+        "phoneme": {
+          "label": "ay",
+          "ipa": "aɪ"
+        }
+      },
+      "mri": {
+        "sentence": "resemble sea urchins sp street is caused steep price year's gas shortage steep price increases price increases sp upgrade sp last sp porcupines sp porcupines sp eat sp your status to raisins outdoors on your raisins outdoors",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_261_265",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "exclusive documents must dirty table sp weatherproof galoshes sp in seattle sp in seattle sp the avalanche these exclusive documents must be locked up at all times sp please take please take this dirty table the cleaners for me sp is particularly informative sp buyer sp the avalanche sp a minor earthquake minor earthquake sp are very useful # weatherproof galoshes for a prospective very useful in sp these exclusive must be locked",
+        "word": "galoshes",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "sp exclusive sp particularly informative sp particularly informative are very useful very useful in a minor earthquake documents must be the cleaners for in seattle sp a prospective buyer the sp avalanche triggered sp these sp locked up at sp please sp all times sp dirty table cloth for me sp prospective buyer the minor earthquake sp in seattle sp weatherproof sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_356_360",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "fish began to leap frantically leap frantically on the surface of surface of the small lake sp and disappeared sp a young mouse scampered across she uses both sp calcium makes calcium makes bones fish began to leap frantically on the surface of the small all like long the field and disappeared sp she uses both names sp interchangeably sp calcium makes bones and hot showers sp young mouse scampered uses both names sp interchangeably sp interchangeably sp calcium makes and teeth strong a young mouse sp the fish",
+        "word": "a",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_371_375",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp daphne's swedish scarf matched her sp irish youngsters irish youngsters sp each eat fresh the subway but the subway but sp nightly increases nightly increases strength miraculously sp i haven't enough strength miraculously sp strength miraculously sp butterscotch fudge goes daphne's swedish sp needlepoint scarf sp each eat # i'd ride i'd ride the sp eating spinach sp nightly increases fudge goes sp vanilla ice cream ice cream sp but i haven't enough change enough change sp daphne's swedish with vanilla ice subway but i sp needlepoint scarf",
+        "word": "each",
+        "phones": "i",
+        "phoneme": {
+          "label": "iy",
+          "ipa": "i"
+        }
+      },
+      "mri": {
+        "sentence": "with vanilla ice vanilla ice cream sp daphne's sp ice cream sp swedish needlepoint scarf youngsters eat fresh have enough change subway but i nightly increases strength sp ride the ride the subway the subway but don't have enough strength miraculously sp butterscotch sp irish sp i'd sp spinach nightly increases the subway but i don't strength miraculously sp strength miraculously sp scarf matched her sp eating sp daphne's sp enough change sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_306_310",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp choosing her dark murky lagoon sp ducks have ducks have webbed the high security sp take charge her bridesmaids' gowns her bridesmaids' gowns bridesmaids' gowns sp # the dark shawn catch that catch that sp big goose sp without help webbed feet with murky lagoon wound lagoon wound around wound around for miles sp murky lagoon wound around for was surrounded by surrounded by barbed sp wire sp charge of sp",
+        "word": "by",
+        "phones": "aɪ",
+        "phoneme": {
+          "label": "ay",
+          "ipa": "aɪ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_261_265",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp be locked up at all sp to the very useful in sp a prospective buyer sp the avalanche a minor earthquake these exclusive documents exclusive documents sp locked up at all times sp please take please take this sp dirty tablecloth dirty tablecloth sp cleaners for me sp # weatherproof galoshes sp brochure is sp particularly informative a prospective buyer the avalanche triggered the avalanche triggered a minor are very useful in seattle sp in seattle sp the avalanche triggered minor earthquake sp these exclusive sp must sp",
+        "word": "prospective",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "sp particularly informative sp particularly informative a prospective sp buyer sp the avalanche the avalanche triggered the avalanche triggered the avalanche triggered a minor earthquake minor earthquake sp this brochure is # weatherproof galoshes sp these sp exclusive documents sp must sp be locked up at up at all times sp very useful in sp please take please take this dirty table cloth to the to the sp cleaners sp for me sp in seattle sp in seattle sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_251_255",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp the tooth fairy forgot to come when wall street journal he orkay casionally he orkay casionally reads the wall is noteworthy sp is noteworthy sp the oasis trish played tag played tag with beach sp for hours sp the tooth fairy roger's tooth fell out sp ability to work without supervision without supervision is his prestige sp the oasis was the oasis was sp cory and cory and trish orkay casionally reads orkay casionally reads oasis was a sp he orkay casionally reads the",
+        "word": "beach",
+        "phones": "i",
+        "phoneme": {
+          "label": "iy",
+          "ipa": "i"
+        }
+      },
+      "mri": {
+        "sentence": "he occasionally reads occasionally reads sp his prestige he occasionally reads wall street journal sp ability to work without supervision prestige he occasionally he occasionally reads",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_206_210",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp healthier to cook without sugar to open the store by eight the viewpoint overlooked could barely handle could barely handle for employment sp barely handle the psychological trauma the viewpoint overlooked viewpoint overlooked the overlooked the ocean the ocean sp for employment sp psychological trauma sp handle the psychological sp failure to by eight cost",
+        "word": "eight",
+        "phones": "eɪ",
+        "phoneme": {
+          "label": "ey",
+          "ipa": "eɪ"
+        }
+      },
+      "mri": {
+        "sentence": "cook without sugar the viewpoint sp open the store the viewpoint sp failure to sp healthier to open the by eight sp the psychological trauma are you looking for employment sp could barely handle the ocean sp overlooked the ocean psychological trauma sp to open the",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F5",
+      "recording": "usctimit_f5_396_400",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp the toddler camp site sp plymouth variety store from the gab a lone sp toddler found a the camp site sp what is sp the ironing the advertising sp the advertising sp never changes sp suburban housewives suburban housewives often suffer from the gab habit star shone in the early sp evening sky evening sky sp verse of sp plymouth variety store plymouth variety store gab habit sp a lone the early sp suburban housewives often housewives often suffer # the advertising sp clamshell near thing by sp",
+        "word": "housewives",
+        "phones": "aʊaɪ",
+        "phoneme": {
+          "label": "ay",
+          "ipa": "aɪ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_246_250",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "soothed by the sp luxurious sp steve wore sp rose corsage smelled sweet sp cliff was soothed was soothed by sp luxurious sp luxurious sp wore a bright red cashmere sweater sp boy answered brother repainted the repainted the garage answered but didn't look up sp a bright red john's brother repainted # the angry the angry sp the angry sp massage sp",
+        "word": "brother",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "sp the rose the rose sp soothed by sp the luxurious the luxurious massage sp brother repainted smelled sweet sp cliff was sp the luxurious massage the luxurious massage sp the angry the angry sp boy answered wore a bright red cashmere sweater brother repainted the repainted the garage the angry sp steve sp a bright red sp soothed by boy answered but look up sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_081_085",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "was proceeding too one's imagination sp society was based project development was proceeding too slowly too slowly sp too slowly sp # parties tax parties tax sp the icy antarctic the icy antarctic from the answer the answer sp medieval society sp medieval society medieval society was medieval society was on hierarchies sp one's imagination one's imagination sp near the icy sp the question sp medieval society medieval society was based on hierarchies sp icy antarctic sp penguins live development was proceeding",
+        "word": "one's",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "on hierarchies sp the icy antarctic parties tax one's imagination sp near the icy one's imagination sp the icy antarctic sp project development sp penguins sp from the sp proceeding too slowly sp masquerade sp masquerade sp medieval society medieval society sp medieval society sp from the answer too slowly sp medieval society sp the answer sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_306_310",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp choosing her dark murky lagoon sp ducks have ducks have webbed the high security sp take charge her bridesmaids' gowns her bridesmaids' gowns bridesmaids' gowns sp # the dark shawn catch that catch that sp big goose sp without help webbed feet with murky lagoon wound lagoon wound around wound around for miles sp murky lagoon wound around for was surrounded by surrounded by barbed sp wire sp charge of sp",
+        "word": "gowns",
+        "phones": "aʊ",
+        "phoneme": {
+          "label": "aw",
+          "ipa": "aʊ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_046_050",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "the state of public education and roses never wore a ski and frustration obtaining frustration obtaining our degrees sp ski mask for sp the legislashe to judge the public education sp public education sp public education sp never fail sp as a romantic a romantic gift frustration obtaining our sp the singer's had a splinter the legislashe sp the legislashe sp a ski mask for disguise sp our degrees sp # the prowler the prowler sp we experience distress we experience distress and frustration obtaining",
+        "word": "prowler",
+        "phones": "aʊ",
+        "phoneme": {
+          "label": "aw",
+          "ipa": "aʊ"
+        }
+      },
+      "mri": {
+        "sentence": "our degrees sp and roses never and frustration obtaining frustration obtaining our sp experience distress frustration obtaining our obtaining our degrees never fail as sp the sp and frustration obtaining sp and roses as a romantic a romantic gift of public education sp we sp prowler wore a ski a ski mask finger had a sp legislature sp the state of ski mask for to judge the public education sp for disguise sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_391_395",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp shrapnel is # each stag surely finds an aggressive policeman aggressive policeman to flag thoughtless sp motorists sp caused by sp is sometimes cured is sometimes cured group therapy sp group therapy sp in black zircons of stylish shoes sp please sing just the club sp theme sp they used they used an aggressive policeman to sp the rich sing just the club sp each stag surely stylish shoes sp surely finds a",
+        "word": "the",
+        "phones": "ə",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "sp the rich surely finds a stylish shoes sp thoughtless motorists sp caused by shrap is sometimes cured through group of stylish shoes sing just the they used an used an aggressive sp policeman to by shrap sp in black zircons sp please sp the club theme stag surely finds sp each sp stag surely to flag thoughtless sp shrapnel is sp therapy sp club theme sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_371_375",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp daphne's swedish scarf matched her sp irish youngsters irish youngsters sp each eat fresh the subway but the subway but sp nightly increases nightly increases strength miraculously sp i haven't enough strength miraculously sp strength miraculously sp butterscotch fudge goes daphne's swedish sp needlepoint scarf sp each eat # i'd ride i'd ride the sp eating spinach sp nightly increases fudge goes sp vanilla ice cream ice cream sp but i haven't enough change enough change sp daphne's swedish with vanilla ice subway but i sp needlepoint scarf",
+        "word": "ride",
+        "phones": "aɪ",
+        "phoneme": {
+          "label": "ay",
+          "ipa": "aɪ"
+        }
+      },
+      "mri": {
+        "sentence": "with vanilla ice vanilla ice cream sp daphne's sp ice cream sp swedish needlepoint scarf youngsters eat fresh have enough change subway but i nightly increases strength sp ride the ride the subway the subway but don't have enough strength miraculously sp butterscotch sp irish sp i'd sp spinach nightly increases the subway but i don't strength miraculously sp strength miraculously sp scarf matched her sp eating sp daphne's sp enough change sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M3",
+      "recording": "usctimit_m3_116_120",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "in bibliographies sp we plan to sp pizzerias are and january are in miami sp writers can abbreviate can abbreviate in bibliographies sp notoriety go hand go hand in hand sp pizzerias are convenient for and january are nice months in miami sp publicity and in miami sp pizzerias are for a quick lunch sp and notoriety go and notoriety go a new beverage plant sp writers can abbreviate in",
+        "word": "nice",
+        "phones": "aɪ",
+        "phoneme": {
+          "label": "ay",
+          "ipa": "aɪ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_261_265",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "exclusive documents must dirty table sp weatherproof galoshes sp in seattle sp in seattle sp the avalanche these exclusive documents must be locked up at all times sp please take please take this dirty table the cleaners for me sp is particularly informative sp buyer sp the avalanche sp a minor earthquake minor earthquake sp are very useful # weatherproof galoshes for a prospective very useful in sp these exclusive must be locked",
+        "word": "weatherproof",
+        "phones": "u",
+        "phoneme": {
+          "label": "uw",
+          "ipa": "u"
+        }
+      },
+      "mri": {
+        "sentence": "sp exclusive sp particularly informative sp particularly informative are very useful very useful in a minor earthquake documents must be the cleaners for in seattle sp a prospective buyer the sp avalanche triggered sp these sp locked up at sp please sp all times sp dirty table cloth for me sp prospective buyer the minor earthquake sp in seattle sp weatherproof sp",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "M1",
+      "recording": "usctimit_m1_121_125",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "sp agricultural sp products are unevenly distributed are unevenly distributed to participate in aquatic competition sp of new techniques the bungalow was pleasantly situated near to participate in nevada's aquatic in nevada's aquatic nevada's aquatic competition # scientific progress the clumsy customer clumsy customer sp spilled some expensive perfume sp progress comes from the bungalow was the bungalow was pleasantly situated near the shore from the development the development of new techniques sp the clumsy customer are unevenly distributed in nevada's aquatic",
+        "word": "participate",
+        "phones": "əeɪ",
+        "phoneme": {
+          "label": "ah",
+          "ipa": "ə"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    },
+    {
+      "speaker": "F1",
+      "recording": "usctimit_f1_446_450",
+      "reason": "different_word_context",
+      "ema": {
+        "sentence": "with you sp speech symposium might speech symposium might by steven spielberg on monday sp on monday sp growing well sp going with sp i took # speech symposium speech symposium might another exciting movie exciting movie by movie by steven spielberg sp symposium might begin is very time very time consuming time consuming sp is she sp yet another exciting movie by sp gremlins sp might begin on",
+        "word": "going",
+        "phones": "oʊ",
+        "phoneme": {
+          "label": "ow",
+          "ipa": "oʊ"
+        }
+      },
+      "mri": {
+        "sentence": "",
+        "word": null,
+        "phones": "",
+        "phonemes": []
+      }
+    }
+  ]
+}

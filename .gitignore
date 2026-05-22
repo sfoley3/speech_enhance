@@ -6,6 +6,8 @@ Thumbs.db
 
 .pdf
 
+.json
+
 # Editors
 .vscode/
 .idea/

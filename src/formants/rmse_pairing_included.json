@@ -1,0 +1,1009 @@
+{
+  "counts": {
+    "included": 3666,
+    "excluded": 2968,
+    "total": 6634
+  },
+  "sample": [
+    {
+      "speaker": "M3",
+      "sentence": "plymouth variety store the advertising verse sp suburban sp a lone star early evening sky a clamshell sp never changes sp toddler found a the camp site camp site sp by the ironing the ironing board sp housewives often the gab habit star shone in the early evening sky sp near the camp thing by the # the advertising the advertising verse sp housewives often suffer from the gab habit sp a lone in the early verse of plymouth variety store",
+      "word": "the",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "proper maintenance sp young sp people participate in athletic activities sp do charlie's help celebrate your sp only the artists obtain popularity obtain popularity sp critical equipment needs equipment needs proper maintenance sp people participate in athletic activities sp athletic activities sp # don't sp the sp only sp charlie's dirty dishes sp only sp most accomplished most accomplished artists obtain popularity sp obtain popularity sp critical equipment needs your brother's success do charlie's dirty people participate in",
+      "word": "do",
+      "phones": "u",
+      "phoneme": {
+        "label": "uw",
+        "ipa": "u"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "is particularly sp the avalanche triggered sp these exclusive all times sp locked up at sp please sp take this dirty table cloth the cleaners for very useful in seattle sp prospective buyer sp the avalanche triggered a minor earthquake minor earthquake sp must be up at all for me sp the avalanche in seattle sp",
+      "word": "must",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "moth zigzagged along zigzagged along the on steep junglelike caused by chloride vaporization sp for a cheap sp don't sp a cheap valuables cheap valuables in a bank vault sp theatre shows sp theatre shows theatre shows mother shows mother goose steep junglelike slopes path through otto's steep junglelike slopes junglelike slopes in temperate zones sp stinging vapour was vapour was caused chloride vaporization sp mother goose sp is grown on sp that stinging by chloride vaporization chloride vaporization sp the path through otto's garden",
+      "word": "vaporization",
+      "phones": "əeɪeɪ",
+      "phoneme": {
+        "label": "ey",
+        "ipa": "eɪ"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "in miami sp technical writers can abbreviate sp can abbreviate sp and notoriety go sp pizzerias are sp pizzerias are december and january in miami sp in miami sp writers can abbreviate can abbreviate sp in bibliographies sp in bibliographies sp we plan to sp publicity and notoriety go and notoriety go and notoriety go notoriety go hand go hand in hand sp pizzerias are plan to build quick lunch sp and january are nice months nice months to a new beverage are convenient for are convenient for and january are and january are sp plant sp can abbreviate sp",
+      "word": "notoriety",
+      "phones": "əaɪioʊ",
+      "phoneme": {
+        "label": "ow",
+        "ipa": "oʊ"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "sp coyote bobcat sp coyote bobcat and hyena the ingredients in the ingredients in was retracted with sp the sp coyote bobcat and hyena are and hyena are and hyena are wild animals # the screw the screw in the papaya sp the papaya sp the bowl sp the ingredients in a large sp bowl sp the misquote was misquote was retracted an apology sp an apology sp an apology sp left hand sp the mango and sp combine all the papaya sp mango and the coyote bobcat and wild animals sp",
+      "word": "coyote",
+      "phones": "aɪioʊ",
+      "phoneme": {
+        "label": "ow",
+        "ipa": "oʊ"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "add the sp oil sp file related to sp why sp when you always you always use # destroy every destroy every file the coleslaw after coleslaw after i add the every file related phony accusations at phony accusations at straw hats are out of to my audits all phony accusations all phony accusations phony accusations at once sp out of fashion of fashion this serve the coleslaw sp buy oil buy oil when use mine sp",
+      "word": "my",
+      "phones": "aɪ",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "his shoulder felt were broken sp many new students each year for joyce sp we welcome many paranoid about sp future gas shortage sp the carpet cleaners shampooed our shampooed our oriental our oriental rug oriental rug sp the carpet cleaners shampooed our sp paranoid about sp a future a future gas new students each",
+      "word": "broken",
+      "phones": "oʊ",
+      "phoneme": {
+        "label": "ow",
+        "ipa": "oʊ"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "sp be locked up at all sp to the very useful in sp a prospective buyer sp the avalanche a minor earthquake these exclusive documents exclusive documents sp locked up at all times sp please take please take this sp dirty tablecloth dirty tablecloth sp cleaners for me sp # weatherproof galoshes sp brochure is sp particularly informative a prospective buyer the avalanche triggered the avalanche triggered a minor are very useful in seattle sp in seattle sp the avalanche triggered minor earthquake sp these exclusive sp must sp",
+      "word": "at",
+      "phones": "æ",
+      "phoneme": {
+        "label": "ae",
+        "ipa": "æ"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "# masquerade sp near the icy antarctic sp medieval sp society was sp project development was development was sp proceeding too proceeding too slowly too slowly sp # masquerade sp the icy antarctic the icy antarctic sp question from the answer the answer sp society was sp society was sp society was sp based on hierarchies sp tax one's penguins lee sp medieval sp on hierarchies sp parties sp tax one's imagination one's imagination sp one's imagination sp too slowly sp",
+      "word": "medieval",
+      "phones": "əi",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "on time sp the local drugstore sp the sp steve collects full moon shone moon shone brightly shone brightly that shone brightly that night sp from arriving on sp the fog local drugstore was with illegally sp dispensing tranquilizers sp brightly that night collects rare and novel coins sp the local dispensing tranquilizers sp",
+      "word": "tranquilizers",
+      "phones": "æaɪ",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "the subway but enough change sp eating spinach swedish needlepoint scarf matched her irish youngsters eat sp daphne's swedish sp daphne's swedish needlepoint scarf sp irish youngsters eat fresh ride the subway spinach nightly increases spinach nightly increases nightly increases strength but i haven't i haven't enough haven't enough change strength miraculously sp butterscotch fudge with vanilla ice # i'll sp strength miraculously sp strength miraculously sp ride the fudge goes well vanilla ice sp the subway but",
+      "word": "needlepoint",
+      "phones": "iɔɪ",
+      "phoneme": {
+        "label": "oy",
+        "ipa": "ɔɪ"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "sp the tooth fairy forgot prestige he occasionally he occasionally reads sp the wall alice's ability to trish played tag played tag with tooth fairy forgot to come when sp without supervision without supervision is his prestige he is noteworthy sp the sp oasis was sp oasis was oasis was a he occasionally reads is noteworthy sp alice's ability to wall street journal with beach balls for hours sp the tooth fairy sp tooth fell sp out sp",
+      "word": "noteworthy",
+      "phones": "ioʊ",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "sp the tooth fairy forgot sp alice's sp without supervision is noteworthy sp the oasis was a mirage sp tag sp beach sp tooth fairy forgot to come when sp tooth fell out sp wall street journal is noteworthy sp the oasis the oasis was he occasionally reads he occasionally reads occasionally reads the sp without supervision oasis was a sp prestige he occasionally reads the wall sp cory and sp played sp for hours sp the tooth fairy forgot to come",
+      "word": "reads",
+      "phones": "i",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "nonprofit organizations have sp rationalize all # nonprofit organizations sp i honour my mom may i order a parfait i eat dinner frequent fundraisers sp frequent fundraisers sp rationalize all sp may i a parfait after parfait after i after i eat sp allow leeway allow leeway here allow leeway here sp frequent fundraisers",
+      "word": "i",
+      "phones": "aɪ",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "wore a ski # the prowler frustration obtaining our of public education public education sp fail as a romantic gift we experience distress we experience distress and frustration and frustration obtaining a ski mask ski mask for had a splinter sp the legislature to judge the state of and roses never as a romantic the prowler wore our degrees sp for disguise sp we experience",
+      "word": "romantic",
+      "phones": "æ",
+      "phoneme": {
+        "label": "ae",
+        "ipa": "æ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "moth zigzagged along zigzagged along the on steep junglelike caused by chloride vaporization sp for a cheap sp don't sp a cheap valuables cheap valuables in a bank vault sp theatre shows sp theatre shows theatre shows mother shows mother goose steep junglelike slopes path through otto's steep junglelike slopes junglelike slopes in temperate zones sp stinging vapour was vapour was caused chloride vaporization sp mother goose sp is grown on sp that stinging by chloride vaporization chloride vaporization sp the path through otto's garden",
+      "word": "mother",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "the coyote bobcat the coyote bobcat the coyote bobcat # clasp sp the papaya are left hand sp misquote was retracted an apology sp an apology sp the coyote bobcat and hyena are wild animals wild animals sp the mango and the papaya are the papaya are sp combine all sp bowl sp the sp the screw in sp misquote was the ingredients in a large an apology sp the mango and the bowl sp the screw and hyena are and hyena are",
+      "word": "hyena",
+      "phones": "əaɪi",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "sp bike fixed sp an old an old sp ud sp male baboon's sp for eating shellfish than you put saw pine trees pine trees and through sequoia national through sequoia national sequoia national forest sequoia national forest sp bandaged sp both sp wounds with an adult male an adult male sp placed sp male baboon's sp teeth are more than you sp an adult male baboon's not suitable for sp you'll get back more top priority on top priority on sp gus saw trees and redwoods of a doctor",
+      "word": "gus",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "sp daphne's swedish scarf matched her sp irish youngsters irish youngsters sp each eat fresh the subway but the subway but sp nightly increases nightly increases strength miraculously sp i haven't enough strength miraculously sp strength miraculously sp butterscotch fudge goes daphne's swedish sp needlepoint scarf sp each eat # i'd ride i'd ride the sp eating spinach sp nightly increases fudge goes sp vanilla ice cream ice cream sp but i haven't enough change enough change sp daphne's swedish with vanilla ice subway but i sp needlepoint scarf",
+      "word": "vanilla",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "to open the could barely handle the viewpoint overlooked for employment sp store by eight sp the viewpoint overlooked the ocean sp for employment sp could barely handle the psychological trauma the psychological trauma the viewpoint overlooked the ocean are you looking sp healthier to cook without sugar barely handle the psychological trauma sp failure to by eight cost",
+      "word": "psychological",
+      "phones": "əaɪ",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "sp daphne's swedish scarf matched her sp irish youngsters irish youngsters sp each eat fresh the subway but the subway but sp nightly increases nightly increases strength miraculously sp i haven't enough strength miraculously sp strength miraculously sp butterscotch fudge goes daphne's swedish sp needlepoint scarf sp each eat # i'd ride i'd ride the sp eating spinach sp nightly increases fudge goes sp vanilla ice cream ice cream sp but i haven't enough change enough change sp daphne's swedish with vanilla ice subway but i sp needlepoint scarf",
+      "word": "matched",
+      "phones": "æ",
+      "phoneme": {
+        "label": "ae",
+        "ipa": "æ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "is particularly sp the avalanche triggered sp these exclusive all times sp locked up at sp please sp take this dirty table cloth the cleaners for very useful in seattle sp prospective buyer sp the avalanche triggered a minor earthquake minor earthquake sp must be up at all for me sp the avalanche in seattle sp",
+      "word": "cleaners",
+      "phones": "i",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "sp the tooth fairy forgot to come when wall street journal he orkay casionally he orkay casionally reads the wall is noteworthy sp is noteworthy sp the oasis trish played tag played tag with beach sp for hours sp the tooth fairy roger's tooth fell out sp ability to work without supervision without supervision is his prestige sp the oasis was the oasis was sp cory and cory and trish orkay casionally reads orkay casionally reads oasis was a sp he orkay casionally reads the",
+      "word": "without",
+      "phones": "aʊ",
+      "phoneme": {
+        "label": "aw",
+        "ipa": "aʊ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "his sudden departure muscular abdomen is muscular abdomen is sp cartoon features a muskrat the emblem depicts the acropolis all aglow sp huge loads sp tugboats are a muscular abdomen sp back sp cartoon features a muskrat and a muskrat and a tadpole sp a tadpole sp the emblem depicts the acropolis are capable of the cast sp tugboats are",
+      "word": "abdomen",
+      "phones": "æə",
+      "phoneme": {
+        "label": "ae",
+        "ipa": "æ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "sp take charge sp maids' gowns maids' gowns sp ducks have webbed was surrounded by barbed wire sp of choosing her bride's sp shawn catch that sp ducks have murky lagoon wound and colorful feathers the high security wound around for wound around for miles sp webbed feet and sp the high catch that big goose without goose without help surrounded by barbed",
+      "word": "by",
+      "phones": "aɪ",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "the diagnosis was discouraging however he the triumphant warrior exhibited naive heroism the kayak down you evaluate this you evaluate this you evaluate this the bayou sp mayan neoclassical mayan neoclassical sp mayan neoclassic scholar mayan neoclassic scholar surveying ancient ruins ancient ruins sp the diagnosis he was not overly worried overly worried sp the triumphant warrior triumphant warrior exhibited naive heroism sp mayan neoclassical mayan neoclassical sp mayan neoclassical sp mayan neoclassical sp the kayak down the mayan neoclassic the mayan neoclassic mayan neoclassic scholar while surveying ancient the bayou sp scholar disappeared while scholar disappeared while took the kayak this algebraic expression kayak down the down the bayou sp how would you evaluate the diagnosis was however he was not overly worried",
+      "word": "surveying",
+      "phones": "eɪ",
+      "phoneme": {
+        "label": "ey",
+        "ipa": "eɪ"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "destroy aviaries sp thought you argued in favour of does hindu ideology hindu ideology honour hindu ideology honour hindu ideology honour sp we apply we apply auditory computer speech recognition sp tornados often destroy aviaries destroy aviaries sp we apply auditory apply auditory modelling sp computer speech recognition sp tornados often sp frequently occurs sp frequently occurs frequently occurs on thanksgiving sp hindu ideology honour cows sp birthday sp destroy aviaries sp you argued in of a centrifuge a centrifuge sp",
+      "word": "aviaries",
+      "phones": "eɪii",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "highway and freeway the paper boy two apples and sp i itemize in my agency my agency sp pronunciation is appreciated sp courier was a sp the courier the courier was a dwarf # highway and bought two apples and three ices three ices sp and freeway mean and freeway mean the same sp all accounts in all accounts in # highway and paper boy bought i itemize all my agency sp pronunciation is freeway mean the is appreciated sp",
+      "word": "two",
+      "phones": "u",
+      "phoneme": {
+        "label": "uw",
+        "ipa": "u"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "many new students is paranoid about a future gas his shoulder felt were broken sp # we welcome is paranoid about is paranoid about paranoid about a future gas shortage welcome many new students each students each year sp the carpet cleaners shampooed our oriental rug sp please shorten about a future carpet cleaners shampooed cleaners shampooed our",
+      "word": "rug",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "to save money understanding alleviate sp an upbeat attitude upbeat attitude sp be practical if from a forgery a forgery sp # cooperation along primitive tribes have tribes have an upbeat attitude upbeat attitude sp standby can sp standby can be practical with understanding alleviate understanding alleviate sp dispute sp flying sp # cooperation along cooperation along with save money sp",
+      "word": "cooperation",
+      "phones": "eɪoʊ",
+      "phoneme": {
+        "label": "ow",
+        "ipa": "oʊ"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "sp shrapnel is # each stag surely finds an aggressive policeman aggressive policeman to flag thoughtless sp motorists sp caused by sp is sometimes cured is sometimes cured group therapy sp group therapy sp in black zircons of stylish shoes sp please sing just the club sp theme sp they used they used an aggressive policeman to sp the rich sing just the club sp each stag surely stylish shoes sp surely finds a",
+      "word": "shoes",
+      "phones": "u",
+      "phoneme": {
+        "label": "uw",
+        "ipa": "u"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "be no need for welfare sp the subject sp informative paragraph sp them through sp box before you go out go out sp people were generous there would no need for bob found more clams at the ocean's # desires are on the subject sp answers will be straightforward if sp carefully first sp carefully first in the box give me one me one informative sp be straightforward if you sp drop five sp those sp would be no clams at the ocean's edge sp that sp",
+      "word": "the",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "be overcharged sp shaving cream on halloween sp carol comes tomorrow have her small zoos sp the two not buy these than be overcharged shaving cream is popular item sp on halloween sp comes tomorrow have her arrange for a meeting at the two sp artists exchanged autographs exchanged autographs sp i'd rather i'd rather not buy these show these show sp shoes than if carol comes her arrange for a meeting at two sp on halloween sp",
+      "word": "halloween",
+      "phones": "æioʊ",
+      "phoneme": {
+        "label": "ow",
+        "ipa": "oʊ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "how oily do saw eight tiny icicles below broken so chop only as much as much money much money as you need sp every outer line # how oily eight tiny icicles below our roof sp oily do you like your salad dressing your salad dressing is broken so money as you draw every outer line first do you like withdraw only as withdraw only as",
+      "word": "only",
+      "phones": "ioʊ",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "cory attacked the attacked the project with pathological examples sp keep sp the thermometer sp always come always come up pathological examples sp block table in the garage with extra determination sp you sp put the butcher sp how good # cory attacked cory attacked the come up with extra determination sp the thermometer under thermometer under your tongue sp",
+      "word": "extra",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "fresh lemon sauce spurious data points the graph sp the spurious data spurious data points data points in first add milk to the shredded cheese sp larger clamp solve the problem sp are difficult to sp wrap sp red snapper with sp roy ignored ralph prepared red",
+      "word": "snapper",
+      "phones": "æ",
+      "phoneme": {
+        "label": "ae",
+        "ipa": "æ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "# young children ended abruptly at how much sp allowance do ended abruptly at ralph controlled the avoid exposure to exposure to tae contagious diseases sp approach your statuesque composure sp statuesque composure sp how much sp the causeway the causeway ended sp approach your interview with should avoid exposure tae contagious diseases",
+      "word": "approach",
+      "phones": "əoʊ",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "her bridesmaids' gowns goose without help dark murky lagoon wound around wound around for miles sp ducks have webbed feet and colorful feathers sp by barbed sp take charge of choosing of choosing her # the dark sp catch that catch that big goose without sp the high the high security high security prison murky lagoon wound murky lagoon wound was surrounded sp barbed wire sp her bridesmaids' gowns bridesmaids' gowns sp",
+      "word": "bridesmaids'",
+      "phones": "aɪeɪ",
+      "phoneme": {
+        "label": "ey",
+        "ipa": "eɪ"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "sp oats sp operates by using antagonistic muscles are holiday aprons to plow over plow over the each child to an ice sp farmers grow sp holiday aprons available aprons available sp jaw operates by sp be careful the flower beds by using antagonistic using antagonistic muscles using antagonistic muscles do atypical farmers aprons available sp to us to us sp be careful not # the jaw sp do atypical antagonistic muscles sp allow sp each child to have an",
+      "word": "using",
+      "phones": "u",
+      "phoneme": {
+        "label": "uw",
+        "ipa": "u"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "dad do academic of potatoes sp of potatoes sp of potatoes sp is unbeatable sp pie makes a makes a nice a nice dessert # only lawyers # only lawyers pick a peck of potatoes lawyers love millionaires good attitude is unbeatable sp coconut sp coconut sp cream pie cream pie makes sp dad do academic bidding sp a good is unbeatable sp love millionaires sp",
+      "word": "cream",
+      "phones": "i",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "be overcharged sp shaving cream on halloween sp carol comes tomorrow have her small zoos sp the two not buy these than be overcharged shaving cream is popular item sp on halloween sp comes tomorrow have her arrange for a meeting at the two sp artists exchanged autographs exchanged autographs sp i'd rather i'd rather not buy these show these show sp shoes than if carol comes her arrange for a meeting at two sp on halloween sp",
+      "word": "i'd",
+      "phones": "aɪ",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "corn candy as a treat a treat sp few people few people live to be a be a hundred a hundred sp tradition requires sp parental approval sp # hispanic costumes hispanic costumes are corn candy as sp glucose sp glucose sp and fructose are and fructose are natural sugars in fruit sp sugars found in youngsters love sp are quite colourful quite colourful sp quite colourful sp for underage marriage underage marriage sp",
+      "word": "fructose",
+      "phones": "əoʊ",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "sp biologists use radioactive isotopes use radioactive isotopes use radioactive isotopes the company's reorganization company's reorganization sp him of autumn sp curiosity sp me mediocrity seldom me mediocrity seldom coexist sp biologists use sp biologists use radioactive isotopes sp to study microorganisms study microorganisms sp study microorganisms sp employee sp employee sp layoffs coincided layoffs coincided with layoffs coincided with the company's reorganization company's reorganization sp remained lifelong friends and companions and companions sp and me mediocrity hair reminded him autumn leaves sp me mediocrity seldom they remained lifelong auburn hair reminded biologists use radioactive use radioactive isotopes radioactive isotopes sp radioactive isotopes sp company's reorganization sp",
+      "word": "study",
+      "phones": "i",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "moon shone brightly that night sp # a sp the fog would be a suitable gift sp the local the local drugstore sp the full shone brightly that steve collects sp novel coins sp from arriving on time sp local drugstore was sp illegally dispensing be a suitable drugstore was charged sp illegally dispensing tranquilizers sp from arriving on leather handbag would leather handbag would full moon shone brightly that brightly that night sp rare novel",
+      "word": "shone",
+      "phones": "oʊ",
+      "phoneme": {
+        "label": "ow",
+        "ipa": "oʊ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "sp tax one's near the icy the answer sp medieval society was based on hierarchies sp development was too slowly sp was proceeding too proceeding too slowly too slowly sp # masquerade parties # masquerade parties the icy antarctic the icy antarctic tax one's imagination one's imagination sp one's imagination sp guess the question medieval society was on hierarchies sp",
+      "word": "hierarchies",
+      "phones": "aɪi",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "humid climates sp is judged by standardized tests funny after toothpaste sp the water contained too his eyes sp our experiment's positive sp our experiment's positive outcome was unexpected sp # mosquitoes exist # mosquitoes exist # mosquitoes exist by standardized tests humid climates sp scholastic sp scholastic sp orange juice tastes funny after toothpaste sp after toothpaste sp contained too much too much chlorine and stung his positive outcome was judged by standardized juice tastes funny sp aptitude is",
+      "word": "too",
+      "phones": "u",
+      "phoneme": {
+        "label": "uw",
+        "ipa": "u"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "medieval society was society was based was based on proceeding too slowly # masquerade sp # masquerade sp parties tax near the icy the icy antarctic parties tax one's the icy antarctic sp medieval society sp medieval society medieval society was on hierarchies sp on hierarchies sp project development was proceeding too slowly sp sorry sp near the icy the icy antarctic sp the question the question from the answer the answer sp imagination sp icy antarctic sp the icy antarctic icy antarctic sp ugh sp imagination sp medieval society medieval society was too slowly sp",
+      "word": "society",
+      "phones": "əaɪi",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "always alone we sp alfalfa is although always alone always alone we alone we survive # alimony sp # alimony sp warm fleecy woolen overalls sp alfalfa is healthy for you sp else fails use fails use force divorced man's wealth sp she wore # alimony sp warm fleecy woolen we survive sp",
+      "word": "alimony",
+      "phones": "æəoʊ",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "sp the tooth fairy forgot sp alice's sp without supervision is noteworthy sp the oasis was a mirage sp tag sp beach sp tooth fairy forgot to come when sp tooth fell out sp wall street journal is noteworthy sp the oasis the oasis was he occasionally reads he occasionally reads occasionally reads the sp without supervision oasis was a sp prestige he occasionally reads the wall sp cory and sp played sp for hours sp the tooth fairy forgot to come",
+      "word": "noteworthy",
+      "phones": "ioʊ",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "authorized the unlimited any corduroy overalls corduroy overalls sp would a tomboy play outdoors sp often go out go out in sp who sp authorized the expense account sp expense account sp cat's meow always cat's meow always you buy any buy any corduroy a tomboy often play outdoors meow always hurts the evening sp # cat's meow sp you buy hurts my ears",
+      "word": "go",
+      "phones": "oʊ",
+      "phoneme": {
+        "label": "ow",
+        "ipa": "oʊ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "quite colourful sp a treat sp and fructose are natural sugars a hundred sp requires prenatal approval requires prenatal approval prenatal approval for underage marriage # hispanic costumes sp youngsters sp love candy sp glucose and sp glucose and fructose are in fruit sp few people to be a tradition requires prenatal underage marriage sp as a treat sugars found in few people live be a hundred love candy corn",
+      "word": "be",
+      "phones": "i",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "once you finish your chain be chain be sure sp will diminish to nothing sp top zinnias rarely sp movies never sp movies never every cab needs cab needs repainting needs repainting often wash thoroughly sp wash thoroughly sp smash lightbulbs and cash value sp diminish to nothing top zinnias rarely zinnias rarely have rarely have crooked their cash value # once you sp smash lightbulbs sp greasing your have enough sp repainting often sp",
+      "word": "be",
+      "phones": "i",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "add the sp oil sp file related to sp why sp when you always you always use # destroy every destroy every file the coleslaw after coleslaw after i add the every file related phony accusations at phony accusations at straw hats are out of to my audits all phony accusations all phony accusations phony accusations at once sp out of fashion of fashion this serve the coleslaw sp buy oil buy oil when use mine sp",
+      "word": "accusations",
+      "phones": "æəeɪ",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "own halloween costumes own halloween costumes halloween costumes sp severe sp in finding nan's inferiority complex sp creole cooking sp creole cooking use curry sp to make their whoever cooperates in sp myopia contributed sp myopia contributed sp myopia contributed sp myopia contributed to ron's inferiority complex horse requires intuition requires intuition and intuition and expertise and expertise sp finding nan's cameo nan's cameo will nan's cameo will be rewarded ron's inferiority complex sp buying a buying a sp whoever cooperates in nan's cameo will she encouraged her their own halloween",
+      "word": "curry",
+      "phones": "i",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "more annoying each best time for after much study is a superb # that noise sp now may each day sp that diagram that diagram makes diagram makes sense only after only after much study sp a boring john cleans shellfish that noise problem noise problem grows that diagram makes sp right sp",
+      "word": "right",
+      "phones": "aɪ",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "in a lively before thursday's exam you can sp before thursday's the museum sp every evening sp a lively home a lively home thursday's exam review exam review every review every formula the museum sp the museum sp hires musicians hires musicians every musicians every evening a roll of roll of wire of wire lay as high as high as you sp a roll near the wall every formula sp lively home sp",
+      "word": "formula",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "elderly people are often excluded sp etiquette mandates compliance sp argue history argue history sp elderly people sp discussions keep discussions keep students' keep students' attention students' attention sp mandates compliance with existing regulations sp biblical scholars a graduation present a graduation present a graduation present sp stimulating sp etiquette mandates compliance sp stimulating sp",
+      "word": "regulations",
+      "phones": "eɪ",
+      "phoneme": {
+        "label": "ey",
+        "ipa": "eɪ"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "soothed by the sp luxurious sp steve wore sp rose corsage smelled sweet sp cliff was soothed was soothed by sp luxurious sp luxurious sp wore a bright red cashmere sweater sp boy answered brother repainted the repainted the garage answered but didn't look up sp a bright red john's brother repainted # the angry the angry sp the angry sp massage sp",
+      "word": "sweet",
+      "phones": "i",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "on nora's plate their funding shortage clay ashtray overflowed ashtray overflowed sp i ate boston ballet overcame boston ballet overcame ballet overcame their # how ancient how ancient is clay ashtray overflowed onto the oak the oak table poor light gives you eyestrain sp i ate every this subway escalator subway escalator sp gives you eyestrain you eyestrain sp ashtray overflowed sp oak table sp the cigarettes this subway escalator every oyster on nora's plate sp ballet overcame their",
+      "word": "you",
+      "phones": "u",
+      "phoneme": {
+        "label": "uw",
+        "ipa": "u"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "# each stag thoughtless motorists sp to flag thoughtless by shrapnel is sometimes cured group therapy sp group therapy sp each stag surely in black zircons of stylish shoes stag surely finds sp the rich the club theme sp they used they used an caused by shrapnel is sometimes cured stylish shoes sp please sing just the just the club theme sp surely finds a aggressive policeman to",
+      "word": "sometimes",
+      "phones": "əaɪ",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "instructions desperately need updating sp need updating sp please sp idiotic predicament sp be rewarded by rewarded by big sp my instructions my instructions desperately idiotic predicament sp impossible to deal to deal with bureaucracy sp be rewarded prescribe drugs too drugs too freely too freely sp you sp good service should sp describe the idiotic predicament sp prescribe drugs too freely sp desperately need updating",
+      "word": "my",
+      "phones": "aɪ",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "# a doctor was in puree some fruit sp preparing the illuminating examples sp the hallway the hallway opens onto a huge chamber sp they all sp puree some preparing the skewers the ambulance with sp patient sp not easy to hallway opens onto hallway opens onto a huge chamber all agree that all agree that the essay is barely intelligible some fruit before the skewers sp not easy to create illuminating examples create illuminating examples in the ambulance",
+      "word": "patient",
+      "phones": "eɪ",
+      "phoneme": {
+        "label": "ey",
+        "ipa": "eɪ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "the subway but enough change sp eating spinach swedish needlepoint scarf matched her irish youngsters eat sp daphne's swedish sp daphne's swedish needlepoint scarf sp irish youngsters eat fresh ride the subway spinach nightly increases spinach nightly increases nightly increases strength but i haven't i haven't enough haven't enough change strength miraculously sp butterscotch fudge with vanilla ice # i'll sp strength miraculously sp strength miraculously sp ride the fudge goes well vanilla ice sp the subway but",
+      "word": "nightly",
+      "phones": "aɪi",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "on time sp the local drugstore sp the sp steve collects full moon shone moon shone brightly shone brightly that shone brightly that night sp from arriving on sp the fog local drugstore was with illegally sp dispensing tranquilizers sp brightly that night collects rare and novel coins sp the local dispensing tranquilizers sp",
+      "word": "local",
+      "phones": "oʊ",
+      "phoneme": {
+        "label": "ow",
+        "ipa": "oʊ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "could barely see sp almost all spotted hyenas and glue oozed out the tube sp why else danny allow others danny allow others sp glue oozed out of would danny allow would danny allow to go sp # we could barely see are now coeducational barely see the through the snow the snow flurries snow flurries sp and jaguars on the safari the safari sp out of the now coeducational sp now coeducational sp",
+      "word": "tube",
+      "phones": "u",
+      "phoneme": {
+        "label": "uw",
+        "ipa": "u"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "of pewter are present anecdotal evidence sp encyclopedias seldom sp encyclopedias seldom a screwdriver is from vodka and are beautiful sp a county in new york # trespassing is seldom present anecdotal sp a screwdriver is made from and subject to sp encyclopedias seldom orange juice sp present anecdotal evidence encyclopedias seldom present subject to penalty to penalty sp is a county a county in",
+      "word": "a",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "was easy for more money by sp she is than i am this was easy more money by i am sp bright sp on the ocean the ocean sp as offensive as for us sp jane may sp sunshine shimmers sp sunshine shimmers sp nothing is money by working was easy for jane may earn",
+      "word": "easy",
+      "phones": "ii",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "sp tax one's near the icy the answer sp medieval society was based on hierarchies sp development was too slowly sp was proceeding too proceeding too slowly too slowly sp # masquerade parties # masquerade parties the icy antarctic the icy antarctic tax one's imagination one's imagination sp one's imagination sp guess the question medieval society was on hierarchies sp",
+      "word": "slowly",
+      "phones": "ioʊ",
+      "phoneme": {
+        "label": "ow",
+        "ipa": "oʊ"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "you go out be no need no need for sp clams and the ocean's edge sp answers will be straightforward through carefully first drop five forms before you go out sp people were would be no for welfare sp and at sp the ocean's # desires are the subject sp be straightforward if them through carefully give me one me one informative sp paragraph on think them through carefully first sp those sp bob found more clams and at",
+      "word": "go",
+      "phones": "oʊ",
+      "phoneme": {
+        "label": "ow",
+        "ipa": "oʊ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "the subway but enough change sp eating spinach swedish needlepoint scarf matched her irish youngsters eat sp daphne's swedish sp daphne's swedish needlepoint scarf sp irish youngsters eat fresh ride the subway spinach nightly increases spinach nightly increases nightly increases strength but i haven't i haven't enough haven't enough change strength miraculously sp butterscotch fudge with vanilla ice # i'll sp strength miraculously sp strength miraculously sp ride the fudge goes well vanilla ice sp the subway but",
+      "word": "change",
+      "phones": "eɪ",
+      "phoneme": {
+        "label": "ey",
+        "ipa": "eɪ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "frequent fundraisers sp allow leeway here a parfait after parfait after i nonprofit organizations have sp i honour my mum sp rationalize all sp rationalize all sp may i organizations have frequent may i order a parfait after i eat frequent fundraisers sp allow leeway my mum sp allow leeway here",
+      "word": "fundraisers",
+      "phones": "əeɪ",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "sp movies sp was appointed to marine mammals sp the moisture in my eyes my eyes is my eyes is sp eyedrops not watches daytime sp movies sp lawyer was appointed intelligent marine mammals buy a turquoise was appointed to sp necklace sp diane may sp diane may diane may splurge and buy a # lawyer was sp dolphins are to execute her the moisture in my eyes",
+      "word": "my",
+      "phones": "aɪaɪ",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "to the haughty sp audience sp audience sp bought gunpowder for a social sp the drunkard sought authorization of the haughty sp as a as a precaution the outlaws bought gunpowder for their stronghold sp outcast sp authorization of his coauthors we sp with a pair of tweezers of tweezers sp the government sought sp as coauthors as coauthors we sp presented our # remove the remove the splinter is a social sp outcast sp a pair of the outlaws sp their stronghold sp",
+      "word": "tweezers",
+      "phones": "i",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "how oily do saw eight tiny icicles below broken so chop only as much as much money much money as you need sp every outer line # how oily eight tiny icicles below our roof sp oily do you like your salad dressing your salad dressing is broken so money as you draw every outer line first do you like withdraw only as withdraw only as",
+      "word": "every",
+      "phones": "i",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "pine trees and through sequoia national sp bandaged both skill of a of a doctor an adult male baboon's teeth baboon's teeth are sp often sp gus saw pine trees walk through sequoia national forest both wounds with the skill sp an adult male baboon's male baboon's teeth not suitable for sp placed top for eating shellfish get back more than you put top priority on his bike fixed an adult male not suitable for sequoia national forest bandaged both wounds",
+      "word": "back",
+      "phones": "æ",
+      "phoneme": {
+        "label": "ae",
+        "ipa": "æ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "highway and freeway the paper boy two apples and sp i itemize in my agency my agency sp pronunciation is appreciated sp courier was a sp the courier the courier was a dwarf # highway and bought two apples and three ices three ices sp and freeway mean and freeway mean the same sp all accounts in all accounts in # highway and paper boy bought i itemize all my agency sp pronunciation is freeway mean the is appreciated sp",
+      "word": "mean",
+      "phones": "i",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "frequent fundraisers sp allow leeway here a parfait after parfait after i nonprofit organizations have sp i honour my mum sp rationalize all sp rationalize all sp may i organizations have frequent may i order a parfait after i eat frequent fundraisers sp allow leeway my mum sp allow leeway here",
+      "word": "i",
+      "phones": "aɪ",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "own halloween costumes own halloween costumes halloween costumes sp severe sp in finding nan's inferiority complex sp creole cooking sp creole cooking use curry sp to make their whoever cooperates in sp myopia contributed sp myopia contributed sp myopia contributed sp myopia contributed to ron's inferiority complex horse requires intuition requires intuition and intuition and expertise and expertise sp finding nan's cameo nan's cameo will nan's cameo will be rewarded ron's inferiority complex sp buying a buying a sp whoever cooperates in nan's cameo will she encouraged her their own halloween",
+      "word": "encouraged",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "frustration obtaining our the legislature met state of public of public education public education sp and roses never fail as a romantic gift # prowler sp and frustration obtaining and frustration obtaining our degrees our degrees sp the legislature wore a ski to judge the a ski mask for disguise sp the singer's finger had sp judge the state frustration obtaining our ski mask for the state of",
+      "word": "legislature",
+      "phones": "eɪ",
+      "phoneme": {
+        "label": "ey",
+        "ipa": "eɪ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "do charlie's dirty obtain popularity sp in athletic activities sp young people young people participate people participate sp people participate sp athletic activities sp # don't do don't do charlie's help celebrate your the most accomplished artists obtain popularity artists obtain popularity obtain popularity sp critical equipment needs critical equipment needs equipment needs proper maintenance sp athletic activities sp athletic activities sp obtain popularity sp",
+      "word": "equipment",
+      "phones": "əə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "are beautiful sp is a county is forbidden and to penalty sp a county in new york present anecdotal evidence a screwdriver is a screwdriver is sp pewter are and subject sp encyclopedias seldom sp encyclopedias seldom is made from vodka and orange juice sp objects made of sp encyclopedias seldom sp encyclopedias seldom a county in",
+      "word": "juice",
+      "phones": "u",
+      "phoneme": {
+        "label": "uw",
+        "ipa": "u"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "too much chlorine his eyes sp was unexpected sp by standardized tests tastes funny after funny after toothpaste sp the water much chlorine sp oh sorry sp the water contained too much chlorine and stung and stung his positive outcome was positive outcome was outcome was unexpected # mosquitoes exist # mosquitoes exist # mosquitoes exist sp judged sp by standardized by standardized tests sp juice sp tastes funny after toothpaste sp after toothpaste sp containing too sp containing too containing too much sp climates sp scholastic aptitude is scholastic aptitude is sp tastes funny too much chlorine sp scholastic aptitude sp climates sp water contained too much chlorine and",
+      "word": "outcome",
+      "phones": "əaʊ",
+      "phoneme": {
+        "label": "aw",
+        "ipa": "aʊ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "more annoying each best time for after much study is a superb # that noise sp now may each day sp that diagram that diagram makes diagram makes sense only after only after much study sp a boring john cleans shellfish that noise problem noise problem grows that diagram makes sp right sp",
+      "word": "problem",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "big juicy peaches the overweight sp into anyone's sp crab challenged me a toothpaste tube sp those sp purists use canned making stew sp the fifth jar contains big juicy peaches sp the overweight the overweight sp into anyone's sp tea sp # crab challenged toothpaste tube should be squeezed from the bottom challenged me but use canned vegetables canned vegetables when making stew quick stab vanquished a toothpaste tube should be squeezed stab vanquished him big juicy peaches slip poison into",
+      "word": "use",
+      "phones": "u",
+      "phoneme": {
+        "label": "uw",
+        "ipa": "u"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "more annoying each best time for after much study is a superb # that noise sp now may each day sp that diagram that diagram makes diagram makes sense only after only after much study sp a boring john cleans shellfish that noise problem noise problem grows that diagram makes sp right sp",
+      "word": "annoying",
+      "phones": "ɔɪ",
+      "phoneme": {
+        "label": "oy",
+        "ipa": "ɔɪ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "was easy for us sp than i am sp bright sunshine bright sunshine sp bright sunshine sp the ocean sp more money by sp she is was easy for i am sp nothing as offensive as offensive as jane may earn sp nothing as offensive as innocence money by working sp jane may",
+      "word": "money",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "much allowance do much allowance do you get abruptly at the # young sp to contagious sp diseases sp with statuesque composure allowance do you sp the causeway the causeway ended at the shore ralph controlled the ralph controlled the sp bleachers sp statuesque composure sp should avoid exposure avoid exposure to sp approach sp approach sp your interview with statuesque composure how much allowance",
+      "word": "at",
+      "phones": "æ",
+      "phoneme": {
+        "label": "ae",
+        "ipa": "æ"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "by using antagonistic muscles sp aprons available to sp allow sp each child an ice pop # the jaw holiday aprons available holiday aprons available aprons available to jaw operates by sp be careful using antagonistic muscles using antagonistic muscles sp do atypical do atypical sp operates by using are holiday aprons to us sp be careful not to plow over plow over the over the flower the flower beds farmers grow oats grow oats sp using antagonistic muscles each child to have an",
+      "word": "over",
+      "phones": "oʊ",
+      "phoneme": {
+        "label": "ow",
+        "ipa": "oʊ"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "freeway mean the sp boy sp the paper is appreciated sp the sp courier was a was a dwarf # highway and the paper sp bought two apples two apples and three ices sp i itemize my agency sp clear pronunciation is appreciated sp i itemize all i itemize all accounts in all accounts in my agency my agency sp clear pronunciation is appreciated sp three ices sp the same thing sp courier was",
+      "word": "three",
+      "phones": "i",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "of teaspoons of the biology and watch cartoons in alimony payments until the number of teaspoons of teaspoons of soysauce that you add you add sp dog loved to chew on the old rag old rag doll # al received al received a engineering departments sp tom chose to in the afternoon the afternoon sp the afternoon sp chip postponed alimony chip postponed alimony postponed alimony payments postponed alimony payments alimony payments until the latest the latest possible joint appointment in the biology and the biology and biology and the sp gregory sp postponed alimony payments postponed alimony payments until the a joint appointment possible date sp count sp of soysauce that sp the big on the old",
+      "word": "payments",
+      "phones": "əeɪ",
+      "phoneme": {
+        "label": "ey",
+        "ipa": "eɪ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "hindu ideology honour cows sp we apply auditory we apply auditory apply auditory modelling computer speech sp tornados often destroy aviaries sp destroy aviaries sp of centrifuge purchase often destroy aviaries destroy aviaries sp thought you argued in favour of hindu ideology honour hindu ideology honour sp birthday frequently occurs on does hindu ideology sp we apply auditory modelling to sp tornados often favour of centrifuge",
+      "word": "ideology",
+      "phones": "aɪii",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "sp daytime movies was appointed to execute her sp diane may the moisture in sp daytime movies daytime movies sp # a lawyer a lawyer was sp marine mammals marine mammals sp diane may lawyer was appointed buy a turquoise sp the moisture in my eyes was appointed to diane may splurge and buy a turquoise necklace turquoise necklace sp my eyes is from eyedrops sp daytime movies sp",
+      "word": "diane",
+      "phones": "æaɪ",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "M1",
+      "sentence": "shaving cream sp is a popular sp giraffes be comes tomorrow have her arrange for a meeting giraffes be kept sp two sp artists exchanged autographs exchanged autographs sp i'd rather not sp buy those shoes than shoes than be sp item on halloween sp her arrange for meeting at sp i'd rather small zoos sp a meeting at sp two artists if carol comes carol comes tomorrow have her buy those shoes than be overcharged sp shaving cream on halloween sp",
+      "word": "halloween",
+      "phones": "ioʊ",
+      "phoneme": {
+        "label": "iy",
+        "ipa": "i"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "shone brightly that brightly that night that night sp from arriving on time sp local drugstore was dispensing tranquilizers sp moon shone brightly sp steve collects steve collects rare collects rare and novel coins sp leather handbag would from arriving on sp the local the local drugstore with illegally dispensing with illegally dispensing tranquilizers sp a suitable gift full moon shone brightly that",
+      "word": "night",
+      "phones": "aɪ",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "the angry boy was soothed by soothed by the luxurious massage the luxurious massage look up sp steve wore sp cashmere sweater brother repainted the rose corsage smelled sweet sp luxurious massage sp wore a bright angry boy answered a bright red repainted the garage answered but didn't the angry boy cliff was soothed boy answered but sp the rose",
+      "word": "by",
+      "phones": "aɪ",
+      "phoneme": {
+        "label": "ay",
+        "ipa": "aɪ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "in a lively before thursday's exam you can sp before thursday's the museum sp every evening sp a lively home a lively home thursday's exam review exam review every review every formula the museum sp the museum sp hires musicians hires musicians every musicians every evening a roll of roll of wire of wire lay as high as high as you sp a roll near the wall every formula sp lively home sp",
+      "word": "musicians",
+      "phones": "u",
+      "phoneme": {
+        "label": "uw",
+        "ipa": "u"
+      }
+    },
+    {
+      "speaker": "F5",
+      "sentence": "on nora's plate clay ashtray overflowed clay ashtray overflowed ashtray overflowed onto this subway escalator subway escalator sp gives you eyestrain every oyster on nora's plate sp boston ballet overcame ballet overcame their sp funding shortage # how ancient how ancient is the clay ashtray overflowed onto overflowed onto the onto the oak sp table sp poor light gives you eyestrain sp you eyestrain sp i ate i ate every ate every oyster this subway escalator subway escalator sp the cigarettes sp reading in how ancient is the oak sp boston ballet boston ballet overcame ballet overcame their",
+      "word": "plate",
+      "phones": "eɪ",
+      "phoneme": {
+        "label": "ey",
+        "ipa": "eɪ"
+      }
+    },
+    {
+      "speaker": "M3",
+      "sentence": "# a doctor was in puree some fruit sp preparing the illuminating examples sp the hallway the hallway opens onto a huge chamber sp they all sp puree some preparing the skewers the ambulance with sp patient sp not easy to hallway opens onto hallway opens onto a huge chamber all agree that all agree that the essay is barely intelligible some fruit before the skewers sp not easy to create illuminating examples create illuminating examples in the ambulance",
+      "word": "a",
+      "phones": "ə",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    },
+    {
+      "speaker": "F1",
+      "sentence": "sp costume needed to be completely papered over the over the living sp you please confirm government at gunpoint for three hours sp the surplus sp lori's sp costume needed black needed black gloves be completely elegant be completely elegant you please confirm government policy regarding waste removal sp the surplus shoes surplus shoes were sp at a at a dis discount price sp at gunpoint for three hours sp regarding waste removal sp discount price confirm government policy confirm government policy black gloves to bob papered over",
+      "word": "gunpoint",
+      "phones": "əɔɪ",
+      "phoneme": {
+        "label": "ah",
+        "ipa": "ə"
+      }
+    }
+  ]
+}

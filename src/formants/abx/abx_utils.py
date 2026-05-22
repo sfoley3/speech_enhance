@@ -20,3 +20,9 @@ def dtw_path(ref: np.ndarray, hyp: np.ndarray, scale_mode: str = "zscore"
     # wp is returned in reverse (end -> start); flip so it's start -> end
     wp = wp[::-1]
     return wp[:, 0], wp[:, 1]
+
+
+# compute kl div
+
+
+# make triplets
