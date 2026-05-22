@@ -1,0 +1,36 @@
+
+=== F1  (n=3666 paired vowels) ===
+   orig_mri: mean= 147.99  median= 114.39  sd= 115.96
+       meta: mean= 140.22  median= 105.31  sd= 123.88
+     nvidia: mean= 166.05  median= 126.59  sd= 144.30
+  Shapiro-Wilk orig_mri: W=0.824  p=4.18e-53  (non-normal)
+  Shapiro-Wilk meta: W=0.764  p=2.18e-58  (non-normal)
+  Shapiro-Wilk nvidia: W=0.804  p=4.49e-55  (non-normal)
+  Friedman chi2=168.051  p=3.22e-37
+  Wilcoxon  orig_mri vs meta     : W=2549077.0  p=9.18e-37  p_holm=2.75e-36
+  Wilcoxon  orig_mri vs nvidia   : W=3295531.0  p=0.308  p_holm=0.308
+  Wilcoxon      meta vs nvidia   : W=2748046.0  p=1.17e-21  p_holm=2.33e-21
+
+=== F2  (n=3666 paired vowels) ===
+   orig_mri: mean= 283.14  median= 204.99  sd= 245.02
+       meta: mean= 308.27  median= 219.18  sd= 270.46
+     nvidia: mean= 301.40  median= 219.16  sd= 261.70
+  Shapiro-Wilk orig_mri: W=0.807  p=1.02e-54  (non-normal)
+  Shapiro-Wilk meta: W=0.811  p=2.41e-54  (non-normal)
+  Shapiro-Wilk nvidia: W=0.807  p=9.39e-55  (non-normal)
+  Friedman chi2=89.736  p=3.27e-20
+  Wilcoxon  orig_mri vs meta     : W=2882531.0  p=8.48e-14  p_holm=1.7e-13
+  Wilcoxon  orig_mri vs nvidia   : W=2864603.0  p=9.76e-15  p_holm=2.93e-14
+  Wilcoxon      meta vs nvidia   : W=3197261.0  p=0.0107  p_holm=0.0107
+
+=== F3  (n=3666 paired vowels) ===
+   orig_mri: mean= 381.48  median= 286.64  sd= 328.24
+       meta: mean= 398.66  median= 287.11  sd= 346.75
+     nvidia: mean= 393.36  median= 271.85  sd= 362.52
+  Shapiro-Wilk orig_mri: W=0.818  p=9.79e-54  (non-normal)
+  Shapiro-Wilk meta: W=0.821  p=1.84e-53  (non-normal)
+  Shapiro-Wilk nvidia: W=0.795  p=7.26e-56  (non-normal)
+  Friedman chi2=5.936  p=0.0514
+  Wilcoxon  orig_mri vs meta     : W=3275098.0  p=0.181  p_holm=0.543
+  Wilcoxon  orig_mri vs nvidia   : W=3317299.0  p=0.497  p_holm=0.994
+  Wilcoxon      meta vs nvidia   : W=3324677.0  p=0.573  p_holm=0.994
