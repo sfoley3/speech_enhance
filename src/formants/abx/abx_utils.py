@@ -61,24 +61,25 @@ from calc_rmse import (  # noqa: E402
 # ---------- config ----------
 
 TIMIT_RESULTS_DIR = Path("/project2/shrikann_35/sfoley/data/fave_results/USC-TIMIT")
-LSS_RESULTS_DIR = Path("/project2/shrikann_35/sfoley/data/fave_results/USC_LSS")
+LSS_RESULTS_DIR = Path("/project2/shrikann_35/sfoley/data/fave_results")
 DEFAULT_OUT_DIR = Path("/scratch1/seanfole/speech_enhance/src/formants/abx")
 
 REFERENCE = "orig_ema"                       # USC-TIMIT clean EMA (baseline)
-COMPARATORS = ["orig_mri", "meta", "nvidia"]  # USC-LSS noisy + two enhanced
+GROUPS = ["raw", "dsp"]
+FAMILIES = ["mri", "meta", "nvidia", "pase"]
 TIMIT_SPKS = ["F1", "F5", "M1", "M3"]
 
 COND_LABELS = {
     "orig_ema": "EMA",
-    "orig_mri": "Orig MRI",
-    "meta": "Denoiser",
-    "nvidia": "RE-USE",
+    "mri": "MRI",
+    "meta": "META",
+    "nvidia": "NVIDIA",
+    "pase": "PASE",
 }
 COND_COLORS = {
     "orig_ema": "#bdbdbd",
-    "orig_mri": "#7f7f7f",
-    "meta": "#4c72b0",
-    "nvidia": "#dd8452",
+    "raw": "#dd8452",
+    "dsp": "#4c72b0",
 }
 
 CHANCE = 0.5  # 2-alternative ABX

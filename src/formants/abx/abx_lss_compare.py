@@ -1,28 +1,19 @@
-"""
-ABX on single-speaker USC-LSS: orig MRI vs the two enhanced versions.
+"""Grouped ABX comparison on USC-LSS (raw/dsp) against EMA baseline.
 
-Task: ON = vowel (phoneme), BY = speaker (LSS is one speaker, so one BY level)
-for each of the three conditions -- orig_mri, meta, nvidia.  A single triplet
-set is formed on the token set shared by all three conditions and scored
-against each condition's own formants, so every condition is evaluated on
-exactly the same (A, B, X) triplets and the comparison is genuinely paired.
+Layout expected under ``--results-dir``:
+        {results_dir}/raw/USC_LSS/{raw_mri,meta,nvidia,pase}
+        {results_dir}/dsp/USC_LSS/{dsp_mri,meta,nvidia,pase}
 
-Goal: the enhanced versions (meta, nvidia) should be *no worse* than orig MRI
-at preserving vowel discriminability.  We report per-condition ABX accuracy
-with triplet bootstrap CIs and paired Wilcoxon (Holm-corrected) between
-conditions, and plot the three against the clean-EMA baseline (grey) produced
-by abx_timit_baseline.py if its summary CSV is present.
+For each (group, family) condition we build one shared ABX triplet set on the
+token intersection across all loaded conditions and score all conditions on that
+same set (paired by construction).
 
 Outputs (in --out-dir):
-  abx_lss_summary.csv        per-condition accuracy + CI
-  abx_lss_paired_tests.csv   pairwise Wilcoxon + Holm
-  abx_lss_paired_cells.csv   per-cell accuracy, all conditions merged
-  abx_lss_compare.pdf        bar plot vs grey EMA baseline
-
-Usage:
-  python abx_lss_compare.py
-  python abx_lss_compare.py --results-dir /path/to/fave_results/USC_LSS \
-                            --out-dir /path/to/out
+    abx_lss_grouped_summary.csv            grouped condition summary
+    abx_lss_raw_vs_dsp_paired_tests.csv    paired Wilcoxon per family
+    abx_lss_vs_ema_tests.csv               per-condition tests vs EMA baseline
+    abx_lss_paired_cells.csv               per-cell score table (tidy)
+    abx_lss_compare_grouped.pdf            grouped bar plot
 """
 
 from __future__ import annotations
@@ -36,62 +27,106 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
+from scipy import stats
 
 import abx_utils as U
 
 
-def _load_baseline(out_dir: Path) -> dict | None:
+def _load_baseline(path: Path) -> dict | None:
     """Read the EMA baseline summary written by abx_timit_baseline.py, if any."""
-    path = out_dir / "abx_timit_baseline_summary.csv"
     if not path.exists():
         return None
     row = pd.read_csv(path).iloc[0].to_dict()
     return row
 
 
+def _holm(pvals: np.ndarray) -> np.ndarray:
+    """Holm-Bonferroni adjusted p-values (monotone step-down)."""
+    pvals = np.asarray(pvals, dtype=np.float64)
+    m = len(pvals)
+    order = np.argsort(pvals)
+    adj = np.empty(m, dtype=np.float64)
+    for rank, idx in enumerate(order):
+        adj[idx] = min(1.0, pvals[idx] * (m - rank))
+    running = np.maximum.accumulate(adj[order])
+    for k, idx in enumerate(order):
+        adj[idx] = running[k]
+    return adj
+
+
+def _folder_name(group: str, family: str) -> str:
+    if family == "mri":
+        return f"{group}_mri"
+    return family
+
+
+def _condition_id(group: str, family: str) -> str:
+    return f"{group}__{family}"
+
+
+def _sem_from_cells(cells: pd.DataFrame) -> float:
+    vals = cells["score"].to_numpy(dtype=float)
+    n = len(vals)
+    if n < 2:
+        return 0.0
+    return float(vals.std(ddof=1) / np.sqrt(n))
+
+
 def make_plot(summary: pd.DataFrame, baseline: dict | None, out_pdf: Path) -> None:
-    """Bar plot: ABX accuracy with CI error bars.
+    """Grouped bars: EMA baseline + per-family raw/dsp bars with SEM."""
+    fig, ax = plt.subplots(figsize=(9.2, 4.8))
 
-    The clean-EMA baseline is the leftmost bar (grey), followed by the
-    comparator conditions in their own colors.  No legend; the x-axis labels
-    carry the condition names.
-    """
-    labels: list[str] = []
-    vals: list[float] = []
-    los: list[float] = []
-    his: list[float] = []
-    colors: list[str] = []
+    family_gap = 1.4
+    centers = 1.2 + np.arange(len(U.FAMILIES), dtype=float) * family_gap
+    bar_w = 0.34
 
-    # EMA baseline first (grey), if available
+    # Leftmost EMA bar (grey)
+    ema_x = 0.0
     if baseline is not None:
-        labels.append(U.COND_LABELS["orig_ema"])
-        vals.append(float(baseline["accuracy_pooled"]))
-        los.append(float(baseline["ci_lo"]))
-        his.append(float(baseline["ci_hi"]))
-        colors.append(U.COND_COLORS["orig_ema"])
+        ema = float(baseline["accuracy_pooled"])
+        lo = float(baseline.get("ci_lo", ema))
+        hi = float(baseline.get("ci_hi", ema))
+        ema_sem = max(0.0, min(ema - lo, hi - ema)) / 1.96 if hi >= lo else 0.0
+        ax.bar(
+            [ema_x], [ema], width=0.6,
+            color=U.COND_COLORS["orig_ema"], edgecolor="black",
+            yerr=[ema_sem], capsize=6,
+            error_kw=dict(ecolor="black", lw=1.2),
+        )
 
-    for c in summary["condition"]:
-        row = summary[summary["condition"] == c].iloc[0]
-        labels.append(U.COND_LABELS.get(c, c))
-        vals.append(float(row["accuracy"]))
-        los.append(float(row["ci_lo"]))
-        his.append(float(row["ci_hi"]))
-        colors.append(U.COND_COLORS.get(c, "#4c72b0"))
-
-    vals = np.asarray(vals)
-    yerr = np.vstack([vals - np.asarray(los), np.asarray(his) - vals])
-
-    fig, ax = plt.subplots(figsize=(7.0, 4.5))
-    x = np.arange(len(labels))
-    ax.bar(x, vals, width=0.6, color=colors, edgecolor="black",
-           yerr=yerr, capsize=6, error_kw=dict(ecolor="black", lw=1.2))
+    # Per-family grouped bars
+    raw_handle = None
+    dsp_handle = None
+    for i, family in enumerate(U.FAMILIES):
+        c = centers[i]
+        for group, dx in [("dsp", -bar_w / 2), ("raw", bar_w / 2)]:
+            row = summary[
+                (summary["group"] == group) & (summary["family"] == family)
+            ]
+            if row.empty:
+                continue
+            r = row.iloc[0]
+            h = ax.bar(
+                [c + dx], [float(r["accuracy"])], width=bar_w,
+                color=U.COND_COLORS[group], edgecolor="black",
+                yerr=[float(r["sem"])], capsize=5,
+                error_kw=dict(ecolor="black", lw=1.2),
+                label=group if ((group == "raw" and raw_handle is None)
+                                or (group == "dsp" and dsp_handle is None)) else None,
+            )
+            if group == "raw" and raw_handle is None:
+                raw_handle = h
+            if group == "dsp" and dsp_handle is None:
+                dsp_handle = h
 
     ax.axhline(U.CHANCE, color="black", ls=":", lw=1.0)
-    ax.set_xticks(x)
-    ax.set_xticklabels(labels)
+    ax.set_xticks(np.concatenate([[ema_x], centers]))
+    ax.set_xticklabels(["EMA", *[U.COND_LABELS[f] for f in U.FAMILIES]])
     ax.set_ylabel("ABX accuracy")
     ax.set_ylim(0.4, 1.0)
     ax.grid(axis="y", linestyle=":", alpha=0.5)
+    ax.set_xlim(-0.6, centers[-1] + 0.8)
+    ax.legend(title="Group", loc="lower right")
 
     fig.tight_layout()
     fig.savefig(out_pdf)
@@ -99,11 +134,115 @@ def make_plot(summary: pd.DataFrame, baseline: dict | None, out_pdf: Path) -> No
     print(f"[plot] wrote {out_pdf}")
 
 
+def _raw_vs_dsp_tests(cells_by_cond: dict[str, pd.DataFrame]) -> pd.DataFrame:
+    """Paired Wilcoxon tests of DSP vs RAW for each family."""
+    key_cols = ["speaker", "phoneme_ax", "phoneme_b"]
+    recs = []
+    for family in U.FAMILIES:
+        raw_id = _condition_id("raw", family)
+        dsp_id = _condition_id("dsp", family)
+        if raw_id not in cells_by_cond or dsp_id not in cells_by_cond:
+            continue
+        raw = cells_by_cond[raw_id][key_cols + ["score"]].rename(
+            columns={"score": "raw"}
+        )
+        dsp = cells_by_cond[dsp_id][key_cols + ["score"]].rename(
+            columns={"score": "dsp"}
+        )
+        m = raw.merge(dsp, on=key_cols, how="inner")
+        x = m["dsp"].to_numpy(dtype=float)
+        y = m["raw"].to_numpy(dtype=float)
+        try:
+            W, p = stats.wilcoxon(x, y, zero_method="wilcox", alternative="two-sided")
+        except ValueError:
+            W, p = float("nan"), float("nan")
+        med_diff = float(np.median(x - y)) if len(m) else float("nan")
+        direction = (
+            "dsp_better" if med_diff > 0 else
+            "raw_better" if med_diff < 0 else
+            "no_diff"
+        )
+        recs.append({
+            "family": family,
+            "median_dsp": float(np.median(x)) if len(m) else float("nan"),
+            "median_raw": float(np.median(y)) if len(m) else float("nan"),
+            "median_diff_dsp_minus_raw": med_diff,
+            "W": float(W),
+            "p": float(p),
+            "n_cells": int(len(m)),
+            "direction": direction,
+        })
+    out = pd.DataFrame(recs)
+    if len(out):
+        valid = out["p"].notna().to_numpy()
+        holm = np.full(len(out), np.nan)
+        if valid.any():
+            holm[valid] = _holm(out.loc[valid, "p"].to_numpy())
+        out["p_holm"] = holm
+    return out
+
+
+def _vs_ema_tests(
+    cells_by_cond: dict[str, pd.DataFrame],
+    summary: pd.DataFrame,
+    baseline: dict | None,
+) -> pd.DataFrame:
+    """Wilcoxon signed-rank tests of condition per-cell score vs EMA scalar."""
+    if baseline is None:
+        return pd.DataFrame()
+    ema_acc = float(baseline["accuracy_pooled"])
+    recs = []
+    for _, r in summary.iterrows():
+        cid = str(r["condition_id"])
+        cells = cells_by_cond[cid]
+        vals = cells["score"].to_numpy(dtype=float)
+        diffs = vals - ema_acc
+        try:
+            W, p = stats.wilcoxon(diffs, zero_method="wilcox", alternative="two-sided")
+        except ValueError:
+            W, p = float("nan"), float("nan")
+        med_diff = float(np.median(diffs)) if len(diffs) else float("nan")
+        recs.append({
+            "condition_id": cid,
+            "group": str(r["group"]),
+            "family": str(r["family"]),
+            "ema_accuracy": ema_acc,
+            "median_score": float(np.median(vals)) if len(vals) else float("nan"),
+            "median_diff_vs_ema": med_diff,
+            "W": float(W),
+            "p": float(p),
+            "n_cells": int(len(vals)),
+            "direction": (
+                "better_than_ema" if med_diff > 0 else
+                "worse_than_ema" if med_diff < 0 else
+                "no_diff"
+            ),
+            "test_type": "wilcoxon_signed_rank_vs_ema_scalar",
+            "notes": (
+                "EMA comes from USC-TIMIT baseline summary; this is not a strict "
+                "item-level paired LSS-vs-EMA test."
+            ),
+        })
+    out = pd.DataFrame(recs)
+    if len(out):
+        valid = out["p"].notna().to_numpy()
+        holm = np.full(len(out), np.nan)
+        if valid.any():
+            holm[valid] = _holm(out.loc[valid, "p"].to_numpy())
+        out["p_holm"] = holm
+    return out
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[1])
     ap.add_argument("--results-dir", type=Path, default=U.LSS_RESULTS_DIR,
-                    help="root containing {condition}/*_tracks.csv")
+                    help="root containing raw/USC_LSS and dsp/USC_LSS")
     ap.add_argument("--out-dir", type=Path, default=U.DEFAULT_OUT_DIR)
+    ap.add_argument(
+        "--baseline-summary", type=Path, default=None,
+        help=("path to abx_timit_baseline_summary.csv; defaults to "
+              "{out_dir}/abx_timit_baseline_summary.csv"),
+    )
     ap.add_argument("--max-file", type=int, default=37,
                     help="keep only LSS files usc_s1_1 .. this number; drops "
                          "usc_s1_38 (Rainbow Passage) so the sentence set "
@@ -122,16 +261,27 @@ def main() -> None:
     print(f"[cfg] results_dir = {args.results_dir}")
     print(f"[cfg] out_dir     = {args.out_dir}")
 
-    # load every condition, keep those that actually have tracks
+    # load every grouped condition, keep those that actually have tracks
     tracks_by_cond: dict[str, dict] = {}
-    for cond in U.COMPARATORS:
-        tracks = U.load_condition_tracks(args.results_dir, cond)
-        if tracks and args.max_file > 0:
-            tracks = U.filter_lss_files(tracks, args.max_file)
-        if tracks:
-            tracks_by_cond[cond] = tracks
-        else:
-            print(f"[warn] no tracks for {cond}; skipping")
+    meta_rows: list[dict] = []
+    for group in U.GROUPS:
+        for family in U.FAMILIES:
+            cond_dir = args.results_dir / group / "USC_LSS"
+            cond_name = _folder_name(group, family)
+            cid = _condition_id(group, family)
+            tracks = U.load_condition_tracks(cond_dir, cond_name)
+            if tracks and args.max_file > 0:
+                tracks = U.filter_lss_files(tracks, args.max_file)
+            if tracks:
+                tracks_by_cond[cid] = tracks
+                meta_rows.append({
+                    "condition_id": cid,
+                    "group": group,
+                    "family": family,
+                    "folder": cond_name,
+                })
+            else:
+                print(f"[warn] no tracks for {group}/{cond_name}; skipping")
     if not tracks_by_cond:
         raise SystemExit("[err] no conditions loaded")
 
@@ -143,21 +293,29 @@ def main() -> None:
     )
 
     summary_rows = []
-    for cond in tracks_by_cond:  # COMPARATORS order
-        flags = flags_by_cond[cond]
+    meta = pd.DataFrame(meta_rows)
+    for _, m in meta.iterrows():
+        cid = str(m["condition_id"])
+        flags = flags_by_cond[cid]
         if len(flags) == 0:
-            print(f"[warn] no triplets for {cond}; skipping")
+            print(f"[warn] no triplets for {cid}; skipping")
             continue
         acc, (lo, hi) = U.bootstrap_ci(flags, n_boot=args.n_boot, seed=args.seed)
+        cells = cells_by_cond[cid]
         summary_rows.append({
-            "condition": cond,
+            "condition_id": cid,
+            "group": str(m["group"]),
+            "family": str(m["family"]),
+            "folder": str(m["folder"]),
             "accuracy": acc,
+            "sem": _sem_from_cells(cells),
             "ci_lo": lo,
             "ci_hi": hi,
+            "n_cells": int(len(cells)),
             "n_triplets": int(len(flags)),
             "chance": U.CHANCE,
         })
-        print(f"[abx] {cond}: {len(cells_by_cond[cond])} cells, "
+        print(f"[abx] {cid}: {len(cells)} cells, "
               f"{len(flags)} triplets  accuracy={acc:.4f}  "
               f"95% CI [{lo:.4f}, {hi:.4f}]")
 
@@ -165,27 +323,56 @@ def main() -> None:
         raise SystemExit("[err] no conditions produced ABX results")
 
     summary = pd.DataFrame(summary_rows)
-    summary.to_csv(args.out_dir / "abx_lss_summary.csv", index=False)
+    summary["family"] = pd.Categorical(
+        summary["family"], categories=U.FAMILIES, ordered=True,
+    )
+    summary["group"] = pd.Categorical(
+        summary["group"], categories=["dsp", "raw"], ordered=True,
+    )
+    summary = summary.sort_values(["family", "group"]).reset_index(drop=True)
+    summary.to_csv(args.out_dir / "abx_lss_grouped_summary.csv", index=False)
 
-    # paired tests across the conditions actually run
-    conds_run = [r["condition"] for r in summary_rows]
-    if len(conds_run) >= 2:
-        merged, tests = U.paired_condition_tests(cells_by_cond, conds_run)
-        tests.to_csv(args.out_dir / "abx_lss_paired_tests.csv", index=False)
-        merged.to_csv(
-            args.out_dir / "abx_lss_paired_cells.csv",
-            index=False, encoding="utf-8",
-        )
-        print("\n--- paired Wilcoxon (per-cell accuracy, Holm-corrected) ---")
-        print(tests.to_string(index=False))
+    # Save per-cell table in tidy format for downstream checks/plots.
+    per_cell = []
+    for _, r in summary.iterrows():
+        cid = str(r["condition_id"])
+        d = cells_by_cond[cid].copy()
+        d.insert(0, "condition_id", cid)
+        d.insert(1, "group", str(r["group"]))
+        d.insert(2, "family", str(r["family"]))
+        per_cell.append(d)
+    pd.concat(per_cell, ignore_index=True).to_csv(
+        args.out_dir / "abx_lss_paired_cells.csv",
+        index=False, encoding="utf-8",
+    )
 
-    baseline = _load_baseline(args.out_dir)
+    # Paired tests requested: DSP vs RAW within each family.
+    raw_dsp_tests = _raw_vs_dsp_tests(cells_by_cond)
+    raw_dsp_tests.to_csv(
+        args.out_dir / "abx_lss_raw_vs_dsp_paired_tests.csv", index=False,
+    )
+    if len(raw_dsp_tests):
+        print("\n--- DSP vs RAW paired Wilcoxon (per family) ---")
+        print(raw_dsp_tests.to_string(index=False))
+
+    baseline_path = (
+        args.baseline_summary
+        if args.baseline_summary is not None
+        else args.out_dir / "abx_timit_baseline_summary.csv"
+    )
+    baseline = _load_baseline(baseline_path)
     if baseline is None:
         print("[note] no EMA baseline summary found; run abx_timit_baseline.py "
               "first to draw the grey baseline.")
-    make_plot(summary, baseline, args.out_dir / "abx_lss_compare.pdf")
+    vs_ema = _vs_ema_tests(cells_by_cond, summary, baseline)
+    vs_ema.to_csv(args.out_dir / "abx_lss_vs_ema_tests.csv", index=False)
+    if len(vs_ema):
+        print("\n--- condition vs EMA tests ---")
+        print(vs_ema.to_string(index=False))
 
-    print("\n--- per-condition summary ---")
+    make_plot(summary, baseline, args.out_dir / "abx_lss_compare_grouped.pdf")
+
+    print("\n--- grouped per-condition summary ---")
     print(summary.to_string(index=False))
 
 
