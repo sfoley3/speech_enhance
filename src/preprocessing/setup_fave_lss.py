@@ -20,25 +20,35 @@ from pathlib import Path
 
 ORIG_DIR = Path("/project2/shrikann_35/sfoley/data/single_spk_corpus")
 ENHANCED_DIR = Path("/project2/shrikann_35/sfoley/data/enhanced_audio")
-WORK_DIR = Path("/project2/shrikann_35/sfoley/data/fave_work/USC_LSS")
-RESULTS_DIR = Path("/project2/shrikann_35/sfoley/data/fave_results/USC_LSS")
+WORK_DIR = Path("/project2/shrikann_35/sfoley/data/fave_work")
+RESULTS_DIR = Path("/project2/shrikann_35/sfoley/data/fave_results")
 
 mri_tg = ORIG_DIR / "textgrids"
 
-CONDITIONS = {
-    "orig_mri": {
-        "wav_dir": ORIG_DIR / "audio",
-        "tg_dir": mri_tg,
-    },
-    "meta": {
-        "wav_dir": ENHANCED_DIR / "META_denoiser" / "USC_LSS_meta",
-        "tg_dir": mri_tg,
-    },
-    "nvidia": {
-        "wav_dir": ENHANCED_DIR / "NVIDIA_REUSE" / "USC_LSS_nvidia",
-        "tg_dir": mri_tg,
-    },
-}
+# groups = ['dsp', 'raw']
+
+# CONDITIONS = {
+#     "dsp_mri": {
+#         "wav_dir": ORIG_DIR / "audio",
+#         "tg_dir": mri_tg,
+#     },
+#     "raw_mri": {
+#         "wav_dir": ORIG_DIR / "audio_raw",
+#         "tg_dir": mri_tg,
+#     },
+#     "meta": {
+#         "wav_dir": ENHANCED_DIR / group / "META_denoiser" / "USC_LSS_meta",
+#         "tg_dir": mri_tg,
+#     },
+#     "nvidia": {
+#         "wav_dir": ENHANCED_DIR  / group / "NVIDIA_REUSE" / "USC_LSS_nvidia",
+#         "tg_dir": mri_tg,
+#     },
+#      "pase": {
+#         "wav_dir": ENHANCED_DIR / group  / "PASE" / "USC_LSS_pase",
+#         "tg_dir": mri_tg,
+#     },
+# }
 
 
 def link_dir(src_dir: Path, pattern: str, dest_dir: Path) -> int:
@@ -68,29 +78,62 @@ def check_pairs(work_subdir: Path) -> tuple[int, list[str]]:
 def main():
     WORK_DIR.mkdir(parents=True, exist_ok=True)
     summary = []
-    for cond, spec in CONDITIONS.items():
-        sub = WORK_DIR / cond
-        sub.mkdir(parents=True, exist_ok=True)
-        wav_dir = spec["wav_dir"]
-        tg_dir = spec["tg_dir"]
-        n_wav = link_dir(wav_dir, "*.wav", sub)
-        n_tg = link_dir(tg_dir, "*.TextGrid", sub)
-        n_pair, orphans = check_pairs(sub)
-        line = f"[{cond}] wav={n_wav} tg={n_tg} paired={n_pair}"
-        if orphans:
-            line += f"  ORPHANS({len(orphans)}): " + ", ".join(orphans[:5])
-            if len(orphans) > 5:
-                line += f", ... (+{len(orphans) - 5})"
-        print(line)
-        summary.append((cond, n_wav, n_tg, n_pair, len(orphans)))
 
-    # print fave-extract commands
-    print("\n# --- fave-extract commands ---")
-    for cond in CONDITIONS:
-        print(
-            f"fave-extract corpus {WORK_DIR}/{cond}/ "
-            f"--destination {RESULTS_DIR}/{cond}"
-        )
+
+    groups = ['dsp', 'raw']
+
+    for g in groups:
+
+        CONDITIONS = {
+            f"{g}_mri": {
+                "wav_dir": ORIG_DIR / f"audio_{g}",
+                "tg_dir": mri_tg,
+            },
+            f"{g}_mri": {
+                "wav_dir": ORIG_DIR / f"audio_{g}",
+                "tg_dir": mri_tg,
+            },
+            "meta": {
+                "wav_dir": ENHANCED_DIR / g / "META_denoiser" / "USC_LSS_meta",
+                "tg_dir": mri_tg,
+            },
+            "nvidia": {
+                "wav_dir": ENHANCED_DIR  / g / "NVIDIA_REUSE" / "USC_LSS_nvidia",
+                "tg_dir": mri_tg,
+            },
+            "pase": {
+                "wav_dir": ENHANCED_DIR / g  / "PASE" / "USC_LSS_pase",
+                "tg_dir": mri_tg,
+            },
+        }
+
+        for cond, spec in CONDITIONS.items():
+            sub = WORK_DIR / g / "USC_LSS" / cond
+            results_sub = RESULTS_DIR / g / "USC_LSS" / cond
+            results_sub.mkdir(parents=True, exist_ok=True)
+            print(f"\nCreating work dir: {sub}")
+            sub.mkdir(parents=True, exist_ok=True)
+            wav_dir = spec["wav_dir"]
+            tg_dir = spec["tg_dir"]
+            n_wav = link_dir(wav_dir, "*.wav", sub)
+            n_tg = link_dir(tg_dir, "*.TextGrid", sub)
+            n_pair, orphans = check_pairs(sub)
+            line = f"[{cond}] wav={n_wav} tg={n_tg} paired={n_pair}"
+            if orphans:
+                line += f"  ORPHANS({len(orphans)}): " + ", ".join(orphans[:5])
+                if len(orphans) > 5:
+                    line += f", ... (+{len(orphans) - 5})"
+            print(line)
+            summary.append((cond, n_wav, n_tg, n_pair, len(orphans)))
+
+        # print fave-extract commands
+        print("\n# --- fave-extract commands ---")
+        for cond in CONDITIONS:
+
+            print(
+                f"fave-extract corpus {WORK_DIR}/{g}/USC_LSS/{cond} "
+                f"--destination {RESULTS_DIR}/{g}/USC_LSS/{cond}"
+            )
 
 
 if __name__ == "__main__":
