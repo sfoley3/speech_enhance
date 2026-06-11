@@ -65,15 +65,15 @@ LSS_RESULTS_DIR = Path("/project2/shrikann_35/sfoley/data/fave_results")
 DEFAULT_OUT_DIR = Path("/scratch1/seanfole/speech_enhance/src/formants/abx")
 
 REFERENCE = "orig_ema"                       # USC-TIMIT clean EMA (baseline)
-GROUPS = ["raw", "dsp"]
+GROUPS = ["raw_clean", "dsp"]
 FAMILIES = ["mri", "meta", "nvidia", "pase"]
 TIMIT_SPKS = ["F1", "F5", "M1", "M3"]
 
 COND_LABELS = {
     "orig_ema": "EMA",
-    "mri": "MRI",
-    "meta": "META",
-    "nvidia": "NVIDIA",
+    "mri": "Orig",
+    "meta": "Denoiser",
+    "nvidia": "REUSE",
     "pase": "PASE",
 }
 COND_COLORS = {

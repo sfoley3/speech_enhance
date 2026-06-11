@@ -80,15 +80,11 @@ def main():
     summary = []
 
 
-    groups = ['dsp', 'raw']
+    groups = ['dsp', 'raw', 'raw_clean']
 
     for g in groups:
 
         CONDITIONS = {
-            f"{g}_mri": {
-                "wav_dir": ORIG_DIR / f"audio_{g}",
-                "tg_dir": mri_tg,
-            },
             f"{g}_mri": {
                 "wav_dir": ORIG_DIR / f"audio_{g}",
                 "tg_dir": mri_tg,

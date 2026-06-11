@@ -28,6 +28,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 from scipy import stats
+from matplotlib.patches import Patch  # noqa: E402
 
 import abx_utils as U
 
@@ -126,7 +127,9 @@ def make_plot(summary: pd.DataFrame, baseline: dict | None, out_pdf: Path) -> No
     ax.set_ylim(0.4, 1.0)
     ax.grid(axis="y", linestyle=":", alpha=0.5)
     ax.set_xlim(-0.6, centers[-1] + 0.8)
-    ax.legend(title="Group", loc="lower right")
+    handles = [Patch(facecolor=U.COND_COLORS["raw"], edgecolor="black", label="Raw"),
+               Patch(facecolor=U.COND_COLORS["dsp"], edgecolor="black", label="DSP")]
+    ax.legend(handles=handles, title="", loc="upper left", frameon=False)
 
     fig.tight_layout()
     fig.savefig(out_pdf)
