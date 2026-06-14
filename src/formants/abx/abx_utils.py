@@ -78,7 +78,7 @@ COND_LABELS = {
 }
 COND_COLORS = {
     "orig_ema": "#bdbdbd",
-    "raw": "#dd8452",
+    "raw_clean": "#dd8452",
     "dsp": "#4c72b0",
 }
 

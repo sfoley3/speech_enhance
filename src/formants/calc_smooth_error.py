@@ -79,8 +79,8 @@ COND_LABELS = {
     "orig_ema": "EMA", "mri": "Orig", "meta": "Denoiser",
     "nvidia": "REUSE", "pase": "PASE",
 }
-COND_COLORS = {"orig_ema": "#bdbdbd", "raw": "#dd8452", "dsp": "#4c72b0"}
-GROUP_PLOT_ORDER = ["raw", "dsp"]            # raw left, dsp right
+COND_COLORS = {"orig_ema": "#bdbdbd", "raw_clean": "#dd8452", "dsp": "#4c72b0"}
+GROUP_PLOT_ORDER = ["raw_clean", "dsp"]            # raw left, dsp right
 
 ERROR_COL = "error"
 PAIR_MIN = 8                                 # min matched tokens for paired test
@@ -287,7 +287,7 @@ def run_stats(ema: Dict, comps: Dict[Tuple[str, str], Dict]
     rd_rows = []
     pooled_raw, pooled_dsp = {}, {}
     for fam in FAMILIES:
-        ra, ds = comps[(fam, "raw")], comps[(fam, "dsp")]
+        ra, ds = comps[(fam, "raw_clean")], comps[(fam, "dsp")]
         for k, v in ra.items():
             pooled_raw[(fam, *k)] = v
         for k, v in ds.items():
@@ -358,7 +358,7 @@ def make_boxplot(ema: Dict, comps: Dict[Tuple[str, str], Dict], out_pdf: Path):
     ax.grid(axis="y", linestyle=":", alpha=0.5)
     ax.set_xlim(-0.6, centers[-1] + 0.8)
 
-    handles = [Patch(facecolor=COND_COLORS["raw"], edgecolor="black", label="Raw"),
+    handles = [Patch(facecolor=COND_COLORS["raw_clean"], edgecolor="black", label="Raw"),
                Patch(facecolor=COND_COLORS["dsp"], edgecolor="black", label="DSP")]
     ax.legend(handles=handles, title="", loc="upper left", frameon=False)
 

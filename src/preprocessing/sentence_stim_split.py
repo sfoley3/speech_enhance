@@ -77,7 +77,7 @@ MAX_PER_SCAN = 2  # avoid pulling too many utterances from one recording
 #   gold_high    : obviously good (clean); expected OVRL high  -> reject raters who score it low
 #   gold_low     : obviously bad (degraded); expected OVRL low -> reject raters who score it high
 # --------------------------------------------------------------------------
-CLEAN_EX_DIR = "/project2/shrikann_35/xuanshi/DATA/SPAN/USC-TIMIT/USC-TIMIT"
+CLEAN_EX_DIR = "/project2/shrikann_35/xuanshi/DATA/SPAN/USC-TIMIT/USC-TIMIT/EMA/Data"
 CLEAN_SPK    = ["F1", "F5", "M1", "M3"]   # clean reference speakers (studio USC-TIMIT)
 
 N_CLEAN_ANCHOR = 4    # clean high-anchor items
@@ -304,6 +304,7 @@ def gather_clean_pool(rng):
     for spk in CLEAN_SPK:
         spk_dir = os.path.join(CLEAN_EX_DIR, spk)
         if not os.path.isdir(spk_dir):
+            print(f"[WARN] missing speaker dir for clean pool: {spk_dir} -> skipping")
             continue
         for w in sorted(glob.glob(os.path.join(spk_dir, "**", "*.wav"), recursive=True)):
             dur = ffprobe_duration(w)
