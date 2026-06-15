@@ -553,19 +553,18 @@ function finishTest() {
   const ts = new Date().toISOString().replace(/[:.]/g, "-");
   downloadJSON(results, `response_${code}_${ts}.json`);
 
-  // 2) Optionally POST to a webhook/email service.
+  // 2) Optionally POST to a webhook
   const done = () => { setTimeout(() => { hide("uploadingPage"); show("thankYouPage"); }, 1500); };
   if (WEBHOOK_URL) {
-    fetch(WEBHOOK_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json", "Accept": "application/json" },
-      body: JSON.stringify(payload)
-    }).then(() => done()).catch(err => {
-      console.error("Upload failed:", err);
-      alert("Your results were downloaded locally but could not be sent automatically. " +
-            "Please email the downloaded JSON file to the researcher.");
-      done();
-    });
+  fetch(WEBHOOK_URL, {
+    method: "POST",
+    mode: "no-cors",                                   
+    headers: { "Content-Type": "text/plain;charset=utf-8" },  
+    body: JSON.stringify(payload)
+  }).then(() => done()).catch(err => {
+    console.error("Upload failed:", err);
+    done();
+  });
   } else {
     done();
   }
