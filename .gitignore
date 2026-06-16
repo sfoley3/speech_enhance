@@ -4,8 +4,8 @@ Thumbs.db
 
 # figs
 
-.pdf
-.csv
+*.pdf
+*.csv
 .json
 
 # Editors
