@@ -60,14 +60,15 @@ from calc_rmse import (  # noqa: E402
 
 # ---------- config ----------
 
-TIMIT_RESULTS_DIR = Path("/project2/shrikann_35/sfoley/data/fave_results/USC-TIMIT")
+TIMIT_RESULTS_DIR = Path("/project2/shrikann_35/sfoley/data/fave_results/dsp/USC-TIMIT")
 LSS_RESULTS_DIR = Path("/project2/shrikann_35/sfoley/data/fave_results")
 DEFAULT_OUT_DIR = Path("/scratch1/seanfole/speech_enhance/src/formants/abx")
 
 REFERENCE = "orig_ema"                       # USC-TIMIT clean EMA (baseline)
-GROUPS = ["raw_clean", "dsp"]
+GROUPS = ["raw", "dsp"]
 FAMILIES = ["mri", "meta", "nvidia", "pase"]
-TIMIT_SPKS = ["F1", "F5", "M1", "M3"]
+#TIMIT_SPKS = ["F1", "F5", "M1", "M3"]
+TIMIT_SPKS = ["F1", "F5", "M1"]
 
 COND_LABELS = {
     "orig_ema": "EMA",
@@ -78,7 +79,7 @@ COND_LABELS = {
 }
 COND_COLORS = {
     "orig_ema": "#bdbdbd",
-    "raw_clean": "#dd8452",
+    "raw": "#dd8452",
     "dsp": "#4c72b0",
 }
 
@@ -120,7 +121,7 @@ def filter_lss_files(
 ) -> Dict[Tuple, VowelTrack]:
     """Keep LSS vowels whose recording file number is <= ``max_file``."""
     out = {k: vt for k, vt in tracks.items()
-           if (n := _file_number(vt.recording_key)) is not None and n <= max_file}
+           if (n := _file_number(vt.recording_key)) is not None and n <= max_file and n not in {15, 21}}
     dropped = {vt.recording_key for vt in tracks.values()} - {
         vt.recording_key for vt in out.values()}
     print(f"[filter] LSS file<= {max_file}: kept {len(out)}/{len(tracks)} vowels"

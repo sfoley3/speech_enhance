@@ -2,28 +2,28 @@
 
 -- summary --
              EMA: n=13097  mean=0.0073  median=0.0007  sd=0.0186
-  Orig raw_clean: n= 4402  mean=0.0010  median=0.0004  sd=0.0020
-        Orig dsp: n= 4402  mean=0.0036  median=0.0007  sd=0.0138
-  Denoiser raw_clean: n= 4402  mean=0.0140  median=0.0045  sd=0.0249
-    Denoiser dsp: n= 4402  mean=0.0025  median=0.0005  sd=0.0094
-  REUSE raw_clean: n= 4402  mean=0.0168  median=0.0029  sd=0.0367
-       REUSE dsp: n= 4402  mean=0.0019  median=0.0002  sd=0.0137
-  PASE raw_clean: n= 4402  mean=0.0151  median=0.0032  sd=0.0348
-        PASE dsp: n= 4402  mean=0.0015  median=0.0002  sd=0.0142
+        Orig raw: n= 4128  mean=0.0023  median=0.0005  sd=0.0165
+        Orig dsp: n= 4128  mean=0.0034  median=0.0006  sd=0.0138
+    Denoiser raw: n= 4128  mean=0.0041  median=0.0009  sd=0.0134
+    Denoiser dsp: n= 4128  mean=0.0021  median=0.0004  sd=0.0078
+       REUSE raw: n= 4128  mean=0.0017  median=0.0001  sd=0.0112
+       REUSE dsp: n= 4128  mean=0.0011  median=0.0002  sd=0.0069
+        PASE raw: n= 4128  mean=0.0018  median=0.0002  sd=0.0106
+        PASE dsp: n= 4128  mean=0.0011  median=0.0002  sd=0.0127
 
 -- PRIMARY: EMA vs each comparison (Mann-Whitney, unpaired; H0: no difference) --
-  EMA vs Orig raw_clean: p=7.63e-81  p_holm=2.29e-80*  Δmed=+0.0003  r=+0.19  (n_ema=13097, n_b=4402)
-  EMA vs Orig dsp    : p=0.00467  p_holm=0.00467*  Δmed=-0.0000  r=+0.03  (n_ema=13097, n_b=4402)
-  EMA vs Denoiser raw_clean: p=0  p_holm=0*  Δmed=-0.0038  r=-0.38  (n_ema=13097, n_b=4402)
-  EMA vs Denoiser dsp: p=9.81e-32  p_holm=1.96e-31*  Δmed=+0.0002  r=+0.12  (n_ema=13097, n_b=4402)
-  EMA vs REUSE raw_clean: p=3.54e-114  p_holm=1.42e-113*  Δmed=-0.0022  r=-0.23  (n_ema=13097, n_b=4402)
-  EMA vs REUSE dsp   : p=1.34e-217  p_holm=8.05e-217*  Δmed=+0.0005  r=+0.32  (n_ema=13097, n_b=4402)
-  EMA vs PASE raw_clean: p=5.98e-149  p_holm=2.99e-148*  Δmed=-0.0026  r=-0.26  (n_ema=13097, n_b=4402)
-  EMA vs PASE dsp    : p=2.66e-264  p_holm=1.86e-263*  Δmed=+0.0005  r=+0.35  (n_ema=13097, n_b=4402)
+  EMA vs Orig raw    : p=2.22e-40  p_holm=6.66e-40*  Δmed=+0.0002  r=+0.14  (n_ema=13097, n_b=4128)
+  EMA vs Orig dsp    : p=4.72e-06  p_holm=4.72e-06*  Δmed=+0.0000  r=+0.05  (n_ema=13097, n_b=4128)
+  EMA vs Denoiser raw: p=6.77e-09  p_holm=1.35e-08*  Δmed=-0.0003  r=-0.06  (n_ema=13097, n_b=4128)
+  EMA vs Denoiser dsp: p=3.94e-42  p_holm=1.58e-41*  Δmed=+0.0002  r=+0.14  (n_ema=13097, n_b=4128)
+  EMA vs REUSE raw   : p=0  p_holm=0*  Δmed=+0.0005  r=+0.42  (n_ema=13097, n_b=4128)
+  EMA vs REUSE dsp   : p=1.22e-249  p_holm=7.3e-249*  Δmed=+0.0005  r=+0.35  (n_ema=13097, n_b=4128)
+  EMA vs PASE raw    : p=2.44e-224  p_holm=1.22e-223*  Δmed=+0.0005  r=+0.33  (n_ema=13097, n_b=4128)
+  EMA vs PASE dsp    : p=1.41e-294  p_holm=9.87e-294*  Δmed=+0.0005  r=+0.38  (n_ema=13097, n_b=4128)
 
 -- SECONDARY: raw vs dsp (Wilcoxon, token-paired; H0: no difference) --
-  Orig     raw vs dsp: p=4.87e-112  Δmed=-0.0001  r=-0.39  (n_pair=4402)
-  Denoiser raw vs dsp: p=0  Δmed=+0.0031  r=+0.81  (n_pair=4402)
-  REUSE    raw vs dsp: p=0  Δmed=+0.0021  r=+0.78  (n_pair=4402)
-  PASE     raw vs dsp: p=0  Δmed=+0.0025  r=+0.84  (n_pair=4402)
-  GLOBAL   raw vs dsp: p=0*  Δmed=+0.0008  r=+0.59  (n_pair=17608)
+  Orig     raw vs dsp: p=7.81e-58  Δmed=-0.0001  r=-0.29  (n_pair=4128)
+  Denoiser raw vs dsp: p=1.73e-166  Δmed=+0.0003  r=+0.49  (n_pair=4128)
+  REUSE    raw vs dsp: p=2.41e-72  Δmed=-0.0000  r=-0.32  (n_pair=4128)
+  PASE     raw vs dsp: p=1.59e-08  Δmed=+0.0000  r=+0.10  (n_pair=4128)
+  GLOBAL   raw vs dsp: p=0.00201*  Δmed=+0.0000  r=+0.03  (n_pair=16512)

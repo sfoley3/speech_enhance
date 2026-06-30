@@ -100,7 +100,7 @@ def make_plot(summary: pd.DataFrame, baseline: dict | None, out_pdf: Path) -> No
     dsp_handle = None
     for i, family in enumerate(U.FAMILIES):
         c = centers[i]
-        for group, dx in [("dsp", -bar_w / 2), ("raw_clean", bar_w / 2)]:
+        for group, dx in [("dsp", -bar_w / 2), ("raw", bar_w / 2)]:
             row = summary[
                 (summary["group"] == group) & (summary["family"] == family)
             ]
@@ -112,10 +112,10 @@ def make_plot(summary: pd.DataFrame, baseline: dict | None, out_pdf: Path) -> No
                 color=U.COND_COLORS[group], edgecolor="black",
                 yerr=[float(r["sem"])], capsize=5,
                 error_kw=dict(ecolor="black", lw=1.2),
-                label=group if ((group == "raw_clean" and raw_handle is None)
+                label=group if ((group == "raw" and raw_handle is None)
                                 or (group == "dsp" and dsp_handle is None)) else None,
             )
-            if group == "raw_clean" and raw_handle is None:
+            if group == "raw" and raw_handle is None:
                 raw_handle = h
             if group == "dsp" and dsp_handle is None:
                 dsp_handle = h
@@ -127,7 +127,7 @@ def make_plot(summary: pd.DataFrame, baseline: dict | None, out_pdf: Path) -> No
     ax.set_ylim(0.4, 1.0)
     ax.grid(axis="y", linestyle=":", alpha=0.5)
     ax.set_xlim(-0.6, centers[-1] + 0.8)
-    handles = [Patch(facecolor=U.COND_COLORS["raw_clean"], edgecolor="black", label="Raw"),
+    handles = [Patch(facecolor=U.COND_COLORS["raw"], edgecolor="black", label="Raw"),
                Patch(facecolor=U.COND_COLORS["dsp"], edgecolor="black", label="DSP")]
     ax.legend(handles=handles, title="", loc="upper left", frameon=False)
 
@@ -142,19 +142,19 @@ def _raw_vs_dsp_tests(cells_by_cond: dict[str, pd.DataFrame]) -> pd.DataFrame:
     key_cols = ["speaker", "phoneme_ax", "phoneme_b"]
     recs = []
     for family in U.FAMILIES:
-        raw_id = _condition_id("raw_clean", family)
+        raw_id = _condition_id("raw", family)
         dsp_id = _condition_id("dsp", family)
         if raw_id not in cells_by_cond or dsp_id not in cells_by_cond:
             continue
         raw = cells_by_cond[raw_id][key_cols + ["score"]].rename(
-            columns={"score": "raw_clean"}
+            columns={"score": "raw"}
         )
         dsp = cells_by_cond[dsp_id][key_cols + ["score"]].rename(
             columns={"score": "dsp"}
         )
         m = raw.merge(dsp, on=key_cols, how="inner")
         x = m["dsp"].to_numpy(dtype=float)
-        y = m["raw_clean"].to_numpy(dtype=float)
+        y = m["raw"].to_numpy(dtype=float)
         try:
             W, p = stats.wilcoxon(x, y, zero_method="wilcox", alternative="two-sided")
         except ValueError:
@@ -330,7 +330,7 @@ def main() -> None:
         summary["family"], categories=U.FAMILIES, ordered=True,
     )
     summary["group"] = pd.Categorical(
-        summary["group"], categories=["dsp", "raw_clean"], ordered=True,
+        summary["group"], categories=["dsp", "raw"], ordered=True,
     )
     summary = summary.sort_values(["family", "group"]).reset_index(drop=True)
     summary.to_csv(args.out_dir / "abx_lss_grouped_summary.csv", index=False)

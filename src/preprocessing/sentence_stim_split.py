@@ -8,7 +8,7 @@ build stimuli) with a single pass that NEVER stores intermediate split audio.
 
 For each scan we compute sentence boundaries ONCE from the TextGrid + transcript
 (reusing the alignment logic from get_sentence_chunks.py). Because every
-condition (orig + 3 enhancement models) in both base forms (dsp, raw_clean) is
+condition (orig + 3 enhancement models) in both base forms (dsp, raw) is
 time-aligned to the same recording, the same [start, end] applies to all of
 them. We then slice each of the 8 full-scan source WAVs at those timestamps and
 pipe it straight through ffmpeg loudness-normalisation, writing only the final
@@ -16,7 +16,7 @@ opaque-named stimulus.
 
 Design (matches the P.835 survey):
     4 conditions (orig + META_denoiser + NVIDIA_REUSE + PASE)
-  x 2 bases      (dsp, raw_clean)        = 8 cells
+  x 2 bases      (dsp, raw)        = 8 cells
   x N utterances (default 12)            = 96 stimuli
 
 Outputs (into --output_dir, default ./):
@@ -54,10 +54,10 @@ import textgrid
 # --------------------------------------------------------------------------
 # Study configuration
 # --------------------------------------------------------------------------
-BASES      = ["dsp", "raw_clean"]                                   # raw_clean is noisiest
+BASES      = ["dsp", "raw"]                                   # raw is noisiest
 CONDITIONS = ["orig", "META_denoiser", "NVIDIA_REUSE", "PASE"]      # orig + 3 models
 # orig audio lives in the corpus dir; map each base form to its sub-folder.
-ORIG_SUBDIR = {"dsp": "audio_dsp", "raw_clean": "audio_raw_clean"}
+ORIG_SUBDIR = {"dsp": "audio_dsp", "raw": "audio_raw"}
 
 # Loudness target (exactly the recipe from the README).
 LOUDNORM = "loudnorm=I=-23:LRA=7:TP=-2"
@@ -322,9 +322,9 @@ def gather_clean_pool(rng):
 def get_args():
     p = argparse.ArgumentParser("Combined splitter + P.835 stimuli generator")
     p.add_argument("--corpus_dir", default="/project2/shrikann_35/sfoley/data/single_spk_corpus",
-                   help="single_spk_corpus dir (textgrids, transcripts, audio_dsp, audio_raw_clean)")
+                   help="single_spk_corpus dir (textgrids, transcripts, audio_dsp, audio_raw)")
     p.add_argument("--enhanced_dir", default="/project2/shrikann_35/sfoley/data/enhanced_audio",
-                   help="enhanced_audio dir (dsp/<MODEL>/USC_LSS_*, raw_clean/<MODEL>/USC_LSS_*)")
+                   help="enhanced_audio dir (dsp/<MODEL>/USC_LSS_*, raw/<MODEL>/USC_LSS_*)")
     p.add_argument("--output_dir", default=".")
     p.add_argument("--num_utterances", type=int, default=12)
     p.add_argument("--align_window", type=int, default=5)
@@ -446,22 +446,22 @@ def main():
                       "plan": ("plain", c["source_wav"])})
 
     # (3) Degraded low-anchors + gold_low (degrade the noisiest experimental source:
-    #     orig / raw_clean of the selected utterances).
+    #     orig / raw of the selected utterances).
     deg_sources = [u for u in utts]  # reuse the selected segments
     for j in range(N_NOISY_ANCHOR):
         u = deg_sources[j % len(deg_sources)]
-        src = source_wav(args, "raw_clean", "orig", u["scan"])
+        src = source_wav(args, "raw", "orig", u["scan"])
         items.append({"role": "anchor_noisy", "utt": f"anc_noisy{j+1:02d}",
-                      "base": "raw_clean", "condition": "degraded",
+                      "base": "raw", "condition": "degraded",
                       "scan": u["scan"], "seg": u["seg"],
                       "start": u["start"], "end": u["end"], "dur": u["dur"],
                       "text": u["text"], "expected": "",
                       "plan": ("degraded", src, ANCHOR_LOWPASS_HZ)})
     for j in range(N_GOLD_LOW):
         u = deg_sources[(j + N_NOISY_ANCHOR) % len(deg_sources)]
-        src = source_wav(args, "raw_clean", "orig", u["scan"])
+        src = source_wav(args, "raw", "orig", u["scan"])
         items.append({"role": "gold_low", "utt": f"gold_lo{j+1:02d}",
-                      "base": "raw_clean", "condition": "degraded",
+                      "base": "raw", "condition": "degraded",
                       "scan": u["scan"], "seg": u["seg"],
                       "start": u["start"], "end": u["end"], "dur": u["dur"],
                       "text": u["text"], "expected": EXPECTED["gold_low"],

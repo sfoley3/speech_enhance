@@ -80,7 +80,7 @@ def main():
     summary = []
 
 
-    groups = ['dsp', 'raw', 'raw_clean']
+    groups = ['dsp', 'raw']
 
     for g in groups:
 
